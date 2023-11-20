@@ -1,0 +1,221 @@
+<template>
+  <div class="home">
+    <router-link to="/" class="logo">
+      <span style="color:#4285f4;">P</span>
+      <span style="color:#ea4335;">O</span>
+      <span style="color:#fbbc05;">R</span>
+      <span style="color:#34a853;">T</span>
+      <span style="color:#4285f4;">F</span>
+      <span style="color:#ea4335;">O</span>
+      <span style="color:#fbbc05;">L</span>
+      <span style="color:#4285f4;">I</span>
+      <span style="color:#34a853;">O</span>
+    </router-link>
+    <div class="nav">
+      <router-link to="/">Home</router-link> ||
+      <router-link to="/about">About</router-link>
+    </div>
+  </div>
+
+  <div class="content" :class="{ showLine2: showLine2 }">
+    <span class="msg" v-if="isTyping">{{ line1 }}</span>
+    <span class="msg2">{{ line2 }}</span>
+    <span class="msg2">{{ line3 }}</span>
+  </div>
+
+  <!-- <div class="carousel">
+    <div class="carousel-container" ref="carouselContainer">
+      <div v-for="(item, index) in carouselItems" :key="index" class="carousel-item">
+        <img v-if="currentIndex === index && item.type === 'image'" :src="require(`@/assets/${item.file}`)"
+        alt="Image" @error="handleImageError" />
+        <video v-else-if="currentIndex === index && item.type === 'video'" :src="require(`@/assets/${item.file}`)"
+          controls></video>
+      </div>
+    </div>
+  </div> -->
+</template>
+
+<script>
+
+export default {
+  name: 'HomePage',
+  data() {
+    return {
+      line1: 'Hey Googlers... Welcome to my Portfolio!',
+      line2: 'Hi this is Shrirang!',
+      line3: 'Go to About me to know about me!',
+      isTyping: false,
+      showLine2: false,
+      carouselItems: [
+        { type: 'image', file: '1.png' },
+        { type: 'image', file: '2.png' },
+        { type: 'video', file: '3.mp4' },
+      ],
+      currentIndex: 0,
+    };
+  },
+
+  created() {
+    this.startCarousel();
+  },
+  beforeUnmount() {
+    clearInterval(this.carouselInterval);
+  },
+
+  methods: {
+    startCarousel() {
+      this.carouselInterval = setInterval(() => {
+        this.currentIndex = (this.currentIndex + 1) % this.carouselItems.length;
+      }, 5000); // Change image or video every 5 seconds (adjust as needed)
+      
+    },
+    handleImageError(event) {
+    console.error('Image loading error:', event);
+  },
+  },
+
+  mounted() {
+    this.isTyping = true;
+    setTimeout(() => {
+      this.showLine2 = true;
+    }, 1800);
+    this.startCarousel();
+    console.log('Home page mounted:', this.carouselInterval)
+  },
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.home {
+  display: flex;
+  text-align: center;
+  box-shadow: 0 5px 10px -7px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+  max-height: 50px;
+  font-family: 'KoHo', sans-serif;
+}
+
+.logo {
+  text-decoration: none;
+  margin: 0 30px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px;
+  align-items: center;
+}
+
+.logo span {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.logo:hover {
+  background-color: rgba(238, 238, 238, 0.521);
+  border-radius: 20px;
+  text-shadow: 2px 2px 2px rgba(243, 243, 243, 0.5);
+}
+
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+
+.nav a {
+  text-decoration: none;
+  color: grey;
+  margin: 0 10px;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid grey;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 50%;
+  font-size: 30px;
+  font-family: 'KoHo', sans-serif;
+  text-align: left;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  transform: translateX(-50%);
+}
+
+.msg,
+.msg2 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid transparent;
+  animation: typing 4s steps(35) forwards;
+}
+
+.msg2 {
+  animation-delay: 1.8s;
+}
+
+.msg2 {
+  visibility: hidden;
+  transition: visibility 0.18s;
+}
+
+.showLine2 .msg2 {
+  visibility: visible;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+
+}
+
+.carousel {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  transition: transform 1s ease;
+  overflow: hidden;
+  padding: 1px;
+  /* Adjust animation duration as needed */
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  text-align: center;
+  transition: transform 2s ease;
+}
+
+.carousel-item img,
+.carousel-item video {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+</style>
