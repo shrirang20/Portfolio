@@ -1,7 +1,7 @@
 <template>
     <div class="nav">
         <a href="mailto:official.shriraang@gmail.com" class="mail">Gmail</a>
-        <router-link to="/about" class="images">Images</router-link>
+        <router-link to="/" class="images">Images</router-link>
         <img alt="flask logo" src="../assets/flask-outline.svg" class="flask">
         <i class="fa fa-th" aria-hidden="true"></i>
         <i class="fa-sharp fa-solid fa-braille"></i>
