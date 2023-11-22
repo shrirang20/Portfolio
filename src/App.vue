@@ -19,8 +19,14 @@ export default {
   color: #2c3e50;
 }
 
-body {
+html,body {
   font-family: 'KoHo', sans-serif;
+  height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
 </style>

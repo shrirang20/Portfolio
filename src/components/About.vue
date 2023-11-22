@@ -182,7 +182,10 @@ export default {
 .custom-mic {
     font-size: 24px;
     color: #4285f4;
-    transform: translateX(-200%);
+    /*transform: translateX(-200%);*/
+    position: relative;
+    z-index: 1;
+    right: 2em;
 
 }
 
@@ -197,7 +200,10 @@ export default {
 
 .search {
     font-size: 30px;
-    transform: translateX(200%);
+    /*transform: translateX(200%);*/
+    position:relative;
+    z-index: 1;
+    left: 1.2em;
 }
 
 .box {
@@ -221,6 +227,7 @@ export default {
 }
 
 .button {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,17 +355,18 @@ export default {
     padding: 10px;
     margin-top: 20px;
     margin-left: 0%;
-    /*margin-bottom: 20px;*/
+    /* margin-bottom: 20px; */
     padding-left: 42px;
     box-shadow: none;
     outline: none;
-    /* New styles for the active search box */
     border-radius: 30px 30px 0 0;
     border-bottom: none;
+    position: relative;
 }
 
 .questions-active {
     /* New styles for the active dropdown */
+    position: relative;
     background-color: #ffffff;
     width: 500px;
     left: -3px;
@@ -377,6 +385,7 @@ export default {
 }
 
 .button-active {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -407,4 +416,443 @@ export default {
 .question {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.700);
-}</style>
+}
+
+/* For screens wider than 768px */
+@media only screen and (min-width: 768px) {
+    
+    .nav {
+      display: flex;
+      /*justify-content: space-between;*/
+      margin-top: 20px;
+      justify-content: flex-end;
+    }
+  
+    .name {
+      margin-top: 12rem;
+      text-align: center;
+    }
+  
+    /*.search {
+      margin-top: 0px;
+    }
+  
+    .box {
+      margin-top: 0px;
+    }
+  
+    .questions {
+      margin-left: 0px;
+      transform: translateX(0px);
+    }
+  
+    .button {
+      margin-top: 0px;
+    }*/
+}
+
+/* For screens between 576px and 768px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .nav {
+      display: flex;
+      margin-top: 20px;
+      justify-content: flex-end;
+    }
+  
+    .name {
+      margin-top: 12rem;
+      text-align: center;
+    }
+  
+    /*.search {
+      margin-top: 0px;
+    }
+  
+    .box {
+      margin-top: 0px;
+    }
+  
+    .questions {
+      margin-left: 0px;
+      transform: translateX(0px);
+    }
+  
+    .button {
+      margin-top: 0px;
+    }*/
+  }
+  
+  /* For screens smaller than 576px */
+  /*@media (min-width: 321px) and (max-width: 575px) {
+    .nav {
+      display: flex;
+      margin-top: 20px;
+      justify-content: flex-end;
+    }
+  
+    .name {
+      margin-top: 250px;
+      text-align: center;
+    }
+  
+   /* .search {
+      margin-top: 0px;
+    }
+  
+    .box {
+      margin-top: 0px;
+    }
+  
+    .questions {
+      margin-left: 0px;
+      transform: translateX(0px);
+    }
+  
+    .button {
+      margin-top: 0px;
+    }
+}
+
+/* @media (max-width:320){
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .name{
+        margin-top: 250px;
+        text-align: center;
+    }
+
+} -*/
+
+@media (min-width:443px) and (max-width:575px){
+
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .name{
+        margin-top: 12rem;
+        text-align: center;
+        font-size: 50px ;
+    }
+    /*.search{
+        transform: translate(15px);
+        z-index: 1;
+    }*/
+
+    .box{
+        min-width: 25rem;
+        margin-left: 0%;
+        transform: translateX(0px);
+        padding-left: 12px;
+        position: relative;
+    }
+
+    .box-active{
+        min-width: 25rem;
+        margin-left: 0%;
+        transform: translateX(0px);
+        padding-left: 12px;
+        position: relative;
+    }
+
+    .custom-mic{
+        /*transform: translateX(-150%);*/
+        position: relative;
+        left:-3rem;
+    }
+
+    .questions-active{
+        position: relative;
+        left: -0.2rem;
+        max-width: 25rem;
+        padding-left: 12px;
+        
+        /*transform: translateX(0px);
+        transform: translateX(35px);*/
+
+    }
+
+    .button-active{
+        position: relative;
+        display: flex;
+        left: 3.1rem;
+        width: 25rem;
+        justify-content: space-evenly;
+        /*justify-content: center;
+        align-items: center;
+        margin-top:20px;
+        margin-bottom: 20px;
+        z-index: 1;
+        border: 2px solid #eeee;
+        width:300px;
+        margin-left: 50%;
+        transform: translateX(-150px);
+        border-radius: 0 0 30px 30px;
+        height: 69px;
+        background-color: white;
+        border-top:none;*/
+    }
+    .content{
+        text-align: start;
+    }
+}
+@media (min-width:362px) and (max-width:442px){
+
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .name{
+        margin-top: 250px;
+        text-align: center;
+        font-size: 40px ;
+    }
+    /*.search{
+        transform: translate(15px);
+        z-index: 1;
+    }*/
+
+    .box{
+        min-width: 20rem;
+        margin-left: 0%;
+        transform: translateX(0px);
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .box-active{
+        min-width: 20rem;
+        margin-left: 0%;
+        transform: translateX(0px);
+        padding-left: 12px;
+        position: relative;
+    }
+
+    .custom-mic{
+        /*transform: translateX(-150%);*/
+        position: relative;
+        right:2em;
+    }
+
+    .questions-active{
+        position: relative;
+        left: -0.2rem;
+        max-width: 20rem;
+        padding-left: 12px;
+        max-height:14rem;
+        /*transform: translateX(0px);
+        transform: translateX(35px);*/
+
+    }
+    .button-active{
+        position: relative;
+        display: flex;
+        left: 5.6rem;
+        width: 20rem;
+    }
+    
+    .content{
+        text-align: start;
+    }
+
+    .button-active .search-btn{
+        width: 8rem;
+        height: 3rem;
+        font-size: 13px;
+    }
+}
+@media (min-width:322px) and (max-width:361px){
+
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .name{
+        margin-top: 12rem;
+        text-align: center;
+        font-size: 38px ;
+    }
+    /*.search{
+        transform: translate(15px);
+        z-index: 1;
+    }*/
+
+    .box{
+        min-width: 19rem;
+        left: -0.5rem;
+        transform: translateX(0px);
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .box-active{
+        min-width: 19rem;
+        left: -0.5rem;
+        transform: translateX(0px);
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .custom-mic{
+        /*transform: translateX(-150%);*/
+        position: relative;
+        display: none;
+    }
+
+    .questions-active{
+        position: relative;
+        left: 0.05rem;
+        max-width: 19rem;
+        padding-left: 12px;
+        
+        /*transform: translateX(0px);
+        transform: translateX(35px);*/
+
+    }
+    .button-active{
+        position: relative;
+        display: flex;
+        left: 6.37rem;
+        width: 19rem;
+    }
+    
+    .content{
+        text-align: start;
+    }
+
+    .button-active .search-btn{
+        width: 8rem;
+        height: 3rem;
+        font-size: 13px;
+    }
+}
+@media (max-width:321px){
+
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .name{
+        margin-top: 12rem;
+        text-align: center;
+        font-size: 38px ;
+    }
+    /*.search{
+        transform: translate(15px);
+        z-index: 1;
+    }*/
+
+    .box{
+        min-width: 17rem;
+        left: -0.5rem;
+        transform: translateX(0px);
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .box-active{
+        min-width: 17rem;
+        left: -0.5rem;
+        transform: translateX(0px);
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .custom-mic{
+        /*transform: translateX(-150%);*/
+        position: relative;
+        display: none;
+    }
+
+    .questions-active{
+        position: relative;
+        left: -0.5rem;
+        max-width: 17rem;
+        padding-left: 12px;
+        
+        /*transform: translateX(0px);
+        transform: translateX(35px);*/
+
+    }
+    .button-active{
+        position: relative;
+        display: flex;
+        left: 6.87rem;
+        width: 17rem;
+    }
+    
+    .content{
+        text-align: start;
+    }
+
+    .search-btn{
+        width: 8rem;
+        height: 3rem;
+        font-size: 13px;
+    }
+    .button-active .search-btn{
+        width: 8rem;
+        height: 3rem;
+        font-size: 13px;
+    }
+}
+/*@media (max-width:442px){
+
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .name{
+        margin-top: 250px;
+        text-align: center;
+        font-size: 40px ;
+    }
+    /*.search{
+        transform: translate(15px);
+        z-index: 1;
+    }*/
+
+   /* .box{
+        min-width: 300px;
+        margin-left: 0%;
+        transform: translateX(0px);
+        padding-left: 12px;
+    }
+
+    .custom-mic{
+        transform: translateX(-150%);
+    }
+}
+@media (max-width:321px){
+
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .name{
+        margin-top: 250px;
+        text-align: center;
+        font-size: 30px ;
+    }
+    /*.search{
+        transform: translate(15px);
+        z-index: 1;
+    }*/
+
+   /* .box{
+        min-width: 200px;
+        margin-left: 0%;
+        transform: translateX(0px);
+        padding-left: 12px;
+    }
+
+    .custom-mic{
+        transform: translateX(-150%);
+    }
+}
+*/
+
+</style>
