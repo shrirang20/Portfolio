@@ -1357,6 +1357,264 @@ export default {
 
     }
 }
+@media (min-width:769px) and (max-width:1024px){
+    
+    
+    .header-logo{
+        display: flex;
+        position: relative;
+        font-size: 27px !important;
+        text-align: center;
+        justify-content: center;
+        top: 0.3rem;
+    }
+    
+    .box-header{
+        position: relative;
+        max-width: 33rem;
+        font-size: 16px !important;
+        max-height: 3rem;
+    }
+    
+    /*.icons{
+        display:none !important;
+    }*/
+    
+    .nav-header{
+        position: relative;
+        position: relative;
+        top: 0.5rem;   
+    }
+    
+    .photo{
+        display: flex !important;
+        flex-direction: row !important;
+        /* margin-left: 3rem !important; */
+        cursor: pointer;
+        position: relative;
+        /* top: -2rem; */
+        width: 71rem;
+        /* height: 10rem; */
+        overflow-x: scroll;
+    }    
+    
+   .image-container{
+        width: 11rem ;
+        height: 19rem ;
+        display: flex;
+    }
+========================================================================================================================
+    
+    .photo1{
+    
+    }
+
+    .column-2{
+        display: flex !important;
+
+    }
+
+    .image-container-2{
+        border-radius:0rem;
+        height: auto;
+        width: 18rem;
+    }
+
+    .photo2{
+        height: auto;
+        width: 17rem;
+        border-top-right-radius:42px;
+    }
+
+    .image-container-3{
+        height: 10rem;
+        width: 18rem;
+        border-bottom-right-radius: 0rem;
+    }
+
+    .photo3{
+        height: 10rem;
+        width: 17rem;
+        border-bottom-right-radius:42px;
+    }
+    
+    .card2{
+        display: flex;
+        height: 19rem;
+    }
+
+    .image-container-4{
+        display: flex;
+        height: 15rem;
+        width: 11rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .photo4{
+        display: flex;
+    }
+
+    .context-card{
+        display: flex;
+        width: 11rem;
+        height: 10rem;
+        overflow: hidden;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        }
+    
+
+    .data{
+       
+    }
+
+    .row1{
+
+    }
+
+    .cards{
+        display: flex;
+        height: 8rem;
+        width: 9rem;
+    }
+
+    .age-value{
+        display: flex;
+        margin-top: 3rem !important;
+    }
+
+    .cards-video{
+        display: flex;
+        height: 10.5rem;
+    }
+
+    .content{
+        position: relative;
+        width: 35rem;
+    }
+
+
+
+    /*.nav-bar2{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 41rem;
+        position: relative;
+        left: -1rem;
+        overflow: scroll;
+        top:-2rem;
+    }    
+
+    .nav-bar2::-webkit-scrollbar {
+        width: 1rem;
+        
+    }    
+    
+    .nav-bar2::-webkit-scrollbar-track {
+        border-radius: 1px
+    }    
+    
+    .nav-bar2::-webkit-scrollbar-thumb {
+        border-radius: 1px;
+       
+    }    
+
+    .nav2-content{
+        font-size: 14px !important;
+    }    
+
+    .nav2-content .icons-subheader{
+        font-size: 14px !important;
+        position: relative;
+        left: -0.7rem;
+        margin-bottom:0.2rem;
+    }    
+
+    .nav2-content span{
+        display: flex !important;
+        flex-direction: column !important;
+        position:relative;
+        margin-right:1rem;
+        left:-1rem;
+    }    
+
+    .border{
+        position: relative;
+        left: -1rem;
+        width: 36rem;
+        top:-4rem;
+    }    
+
+    .subheader{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 2.5rem !important;
+        margin-right: 0rem !important;
+        margin-top: 0rem !important;
+        position: relative;
+        top:-2rem;
+    }    
+
+    .name{
+        margin-top: 0rem;
+        position: relative;
+        left: 0.3rem;
+    
+    }    
+
+    .heading{
+        font-size:20px;
+    }    
+
+    .sub-heading{
+        font-size: 13px;
+    }    
+
+
+    .photo::-webkit-scrollbar {
+        width: 1rem;
+        
+    }    
+    
+    .photo::-webkit-scrollbar-track {
+        border-radius: 1px
+    }    
+    
+    .photo::-webkit-scrollbar-thumb {
+        border-radius: 1px;
+       
+    }    
+    
+    .image-container-5{
+        display: flex !important;
+        flex-direction: row !important;
+        height: auto;
+        width: 15rem;
+    }
+
+    .photo5{
+        height: 8.5rem;
+        width: 14rem;
+    }
+
+
+    .heading1{
+        font-size: 20px;
+    }
+
+    .slug{
+        font-size: 13px;
+    }
+
+    .slug .icons-subheader{
+        margin-left:0.5rem;
+    }
+
+    .context{
+
+    }*/
+}
 
 
 
