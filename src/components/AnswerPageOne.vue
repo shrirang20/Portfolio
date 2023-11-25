@@ -1220,8 +1220,8 @@ export default {
 
     .border{
         position: relative;
-        left: -3rem;
-        width: 38rem;
+        left: -2rem;
+        width: 36rem;
         top:-4rem;
     }
 
