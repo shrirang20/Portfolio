@@ -1147,7 +1147,7 @@ export default {
     .header-logo{
         display: flex;
         position: relative;
-        left: 9rem;
+        left: 7.5rem;
         font-size: 40px !important;
         text-align: center;
     }
@@ -1178,9 +1178,9 @@ export default {
     .nav-bar2{
         display: flex !important;
         flex-direction: column !important;
-        width: 33rem;
+        width: 41rem;
         position: relative;
-        left: 4rem;
+        left: 0rem;
         overflow: scroll;
         top:-2rem;
     }
@@ -1220,8 +1220,8 @@ export default {
 
     .border{
         position: relative;
-        left: -1rem;
-        width: 41rem;
+        left: -2rem;
+        width: 38rem;
         top:-4rem;
     }
 
@@ -1253,7 +1253,7 @@ export default {
     .photo{
         display: flex !important;
         flex-direction: row !important;
-        margin-left: 6.5rem !important;
+        margin-left: 4rem !important;
         cursor: pointer;
         position: relative;
         top: -2rem;
