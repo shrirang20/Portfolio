@@ -1160,10 +1160,10 @@ export default {
 
     .box-header{
         position: relative;
-        max-width: 37rem;
+        max-width: 36rem;
         font-size: 16px !important;
         max-height: 3rem;
-        left: 0.1rem;
+        left: 0.5rem;
     }
 
     .icons{
