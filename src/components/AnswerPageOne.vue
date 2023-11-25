@@ -1147,14 +1147,14 @@ export default {
     .header-logo{
         display: flex;
         position: relative;
-        left: 7.5rem;
+        left: 6.5rem;
         font-size: 40px !important;
         text-align: center;
     }
 
     .dropdown-header{
         position: relative;
-        left: -1.65rem;
+        left: -2.65rem;
         height: 7rem;
     }
 
@@ -1180,7 +1180,7 @@ export default {
         flex-direction: column !important;
         width: 41rem;
         position: relative;
-        left: 0rem;
+        left: -1rem;
         overflow: scroll;
         top:-2rem;
     }
@@ -1220,7 +1220,7 @@ export default {
 
     .border{
         position: relative;
-        left: -2rem;
+        left: -3rem;
         width: 38rem;
         top:-4rem;
     }
@@ -1238,7 +1238,7 @@ export default {
     .name{
         margin-top: 0rem;
         position: relative;
-        left: 1.3rem;
+        left: 0.3rem;
     
     }
 
@@ -1253,7 +1253,7 @@ export default {
     .photo{
         display: flex !important;
         flex-direction: row !important;
-        margin-left: 4rem !important;
+        margin-left: 3rem !important;
         cursor: pointer;
         position: relative;
         top: -2rem;
