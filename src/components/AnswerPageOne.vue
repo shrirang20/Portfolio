@@ -1154,7 +1154,7 @@ export default {
 
     .dropdown-header{
         position: relative;
-        left: 1.35rem;
+        left: -1.65rem;
         height: 7rem;
     }
 
@@ -1228,7 +1228,7 @@ export default {
     .subheader{
         display: flex !important;
         flex-direction: column !important;
-        margin-left: 3.5rem !important;
+        margin-left: 2.5rem !important;
         margin-right: 0rem !important;
         margin-top: 0rem !important;
         position: relative;
