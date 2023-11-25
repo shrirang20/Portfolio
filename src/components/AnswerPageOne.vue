@@ -1228,7 +1228,7 @@ export default {
     .subheader{
         display: flex !important;
         flex-direction: column !important;
-        margin-left: 5.5rem !important;
+        margin-left: 3.5rem !important;
         margin-right: 0rem !important;
         margin-top: 0rem !important;
         position: relative;
