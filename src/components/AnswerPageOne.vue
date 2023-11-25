@@ -506,7 +506,7 @@ export default {
     background-color: #c7dbff;
 }
 
-@media (max-width:328px) {
+@media (max-width:320px) {
     .navbar{
         display: flex !important;
         flex-direction: column !important;
@@ -695,7 +695,7 @@ export default {
     .content{
         position: relative;
         top: -2rem;
-        width: 16.5rem;
+        width: 16rem;
     }
 
     .heading1{
@@ -715,7 +715,7 @@ export default {
     }
 }
 
-@media (min-width:329px) and (max-width:425px){
+@media (min-width:321px) and (max-width:375px){
     .navbar{
         display: flex !important;
         flex-direction: column !important;
@@ -727,21 +727,21 @@ export default {
     .header-logo{
         display: flex;
         position: relative;
-        left: -2rem;
         font-size: 30px !important;
         text-align: center;
+        margin-left: 3.5rem !important;
     }
 
     .dropdown-header{
         position:relative;
-        left:-4.6rem;
+        left:-3.5rem;
         height: 5rem;
     
     }
 
     .box-header{
         position: relative;
-        max-width: 19rem;
+        max-width: 20rem;
         font-size: 16px !important;
         max-height: 2rem;
         left: 0.1rem;
@@ -759,9 +759,9 @@ export default {
     .nav-bar2{
         display: flex !important;
         flex-direction: column !important;
-        width: 19rem;
+        width: 21rem;
         position: relative;
-        left: 0rem;
+        left: 1rem;
         overflow: scroll;
         top:-1rem;
     }
@@ -781,11 +781,11 @@ export default {
     }
 
     .nav2-content{
-        font-size: 13px !important;
+        font-size: 14px !important;
     }
 
     .nav2-content .icons-subheader{
-        font-size: 13px !important;
+        font-size: 14px !important;
         position: relative;
         left: -0.7rem;
         margin-bottom:0.2rem;
@@ -809,7 +809,7 @@ export default {
     .subheader{
         display: flex !important;
         flex-direction: column !important;
-        margin-left: 0rem !important;
+        margin-left: 1rem !important;
         margin-right: 0rem !important;
         margin-top: 0rem !important;
         position: relative;
@@ -829,12 +829,13 @@ export default {
 
     .sub-heading{
         font-size: 13px;
+        
     }
 
     .photo{
         display: flex !important;
         flex-direction: row !important;
-        margin-left: 1rem !important;
+        margin-left: 2rem !important;
         cursor: pointer;
         position: relative;
         top: -2rem;
@@ -904,7 +905,217 @@ export default {
     .content{
         position: relative;
         top: -2rem;
-        width: 16.5rem;
+        width: 18.5rem;
+    }
+
+    .heading1{
+        font-size: 19px;
+    }
+
+    .slug{
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .slug .icons-subheader{
+        margin-left:0.5rem;
+    }
+
+    .context{
+
+    }
+}
+
+@media (min-width:376px) and (max-width:425px){
+    .navbar{
+        display: flex !important;
+        flex-direction: column !important;
+        width:10rem;
+    }
+    .nav{
+        width: 1rem;
+    }
+    .header-logo{
+        display: flex;
+        position: relative;
+        left: -1rem;
+        font-size: 35px !important;
+        text-align: center;
+    }
+
+    .dropdown-header{
+        position:relative;
+        left:-2.6rem;
+        height: 5rem;
+    
+    }
+
+    .box-header{
+        position: relative;
+        max-width: 21rem;
+        font-size: 16px !important;
+        max-height: 2rem;
+        left: 0.1rem;
+    }
+
+    .icons{
+        display:none !important;
+    }
+
+    .nav-header{
+        display: none !important;
+        
+    }
+
+    .nav-bar2{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 24rem;
+        position: relative;
+        left: 1rem;
+        overflow: scroll;
+        top:-1rem;
+    }
+
+    .nav-bar2::-webkit-scrollbar {
+        width: 1rem;
+        /* width of the entire scrollbar */
+    }
+    
+    .nav-bar2::-webkit-scrollbar-track {
+        border-radius: 1px
+    }
+    
+    .nav-bar2::-webkit-scrollbar-thumb {
+        border-radius: 1px;
+        /* roundness of the scroll thumb */
+    }
+
+    .nav2-content{
+        font-size: 13px !important;
+    }
+
+    .nav2-content .icons-subheader{
+        font-size: 13px !important;
+        position: relative;
+        left: -0.7rem;
+        margin-bottom:0.2rem;
+    }
+
+    .nav2-content span{
+        display: flex !important;
+        flex-direction: column !important;
+        position:relative;
+        margin-right:1rem;
+        left:-1rem;
+    }
+
+    .border{
+        position: relative;
+        left: -1rem;
+        width: 20rem;
+        top:-3rem;
+    }
+
+    .subheader{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 1.5rem !important;
+        margin-right: 0rem !important;
+        margin-top: 0rem !important;
+        position: relative;
+        top:-2rem;
+    }
+
+    .name{
+        margin-top: 0rem;
+        position: relative;
+        left: 1.3rem;
+    
+    }
+
+    .heading{
+        font-size:20px;
+    }
+
+    .sub-heading{
+        font-size: 13px;
+    }
+
+    .photo{
+        display: flex !important;
+        flex-direction: row !important;
+        margin-left: 2.5rem !important;
+        cursor: pointer;
+        position: relative;
+        top: -2rem;
+        width: 19rem;
+        height: 10rem;
+        overflow-x: scroll;
+    }
+    .image-container{
+        border-radius:0rem;
+    }
+
+    .photo1{
+
+    }
+
+    .column-2{
+        display: flex !important;
+        flex-direction: row !important;
+        height: 10rem;
+        width: 33rem;
+
+    }
+
+    .image-container-2{
+        border-radius:0rem;
+        height: auto;
+        width: 16rem;
+    }
+
+    .photo2{
+        height: auto;
+        width: 16rem;
+    }
+
+    .image-container-3{
+        height: auto;
+        width: 12.5rem;
+        border-bottom-right-radius: 0rem;
+    }
+
+    .photo3{
+        height: auto;
+        width: 12.5rem;
+    }
+
+    .image-container-5{
+        display: flex !important;
+        flex-direction: row !important;
+        height: auto;
+        width: 15rem;
+    }
+
+    .photo5{
+        height: 8.5rem;
+        width: 14rem;
+    }
+
+    .card2{
+        display:none;
+    }
+
+    .data{
+        display: none;
+    }
+
+
+    .content{
+        position: relative;
+        top: -2rem;
+        width: 21rem;
     }
 
     .heading1{
@@ -923,6 +1134,7 @@ export default {
 
     }
 }
+
 @media (min-width:426px) and (max-width:768px){
     .navbar{
         display: flex !important;
@@ -935,23 +1147,22 @@ export default {
     .header-logo{
         display: flex;
         position: relative;
-        left: -2rem;
-        font-size: 30px !important;
+        left: 9rem;
+        font-size: 40px !important;
         text-align: center;
     }
 
     .dropdown-header{
-        position:relative;
-        left:-4.6rem;
-        height: 5rem;
-    
+        position: relative;
+        left: 1.35rem;
+        height: 7rem;
     }
 
     .box-header{
         position: relative;
-        max-width: 19rem;
+        max-width: 37rem;
         font-size: 16px !important;
-        max-height: 2rem;
+        max-height: 3rem;
         left: 0.1rem;
     }
 
@@ -967,11 +1178,11 @@ export default {
     .nav-bar2{
         display: flex !important;
         flex-direction: column !important;
-        width: 19rem;
+        width: 33rem;
         position: relative;
-        left: 0rem;
+        left: 4rem;
         overflow: scroll;
-        top:-1rem;
+        top:-2rem;
     }
 
     .nav-bar2::-webkit-scrollbar {
@@ -989,11 +1200,11 @@ export default {
     }
 
     .nav2-content{
-        font-size: 13px !important;
+        font-size: 14px !important;
     }
 
     .nav2-content .icons-subheader{
-        font-size: 13px !important;
+        font-size: 14px !important;
         position: relative;
         left: -0.7rem;
         margin-bottom:0.2rem;
@@ -1009,15 +1220,15 @@ export default {
 
     .border{
         position: relative;
-        left: -1.1rem;
-        width: 20rem;
-        top:-3rem;
+        left: -1rem;
+        width: 41rem;
+        top:-4rem;
     }
 
     .subheader{
         display: flex !important;
         flex-direction: column !important;
-        margin-left: 0rem !important;
+        margin-left: 5.5rem !important;
         margin-right: 0rem !important;
         margin-top: 0rem !important;
         position: relative;
@@ -1042,14 +1253,29 @@ export default {
     .photo{
         display: flex !important;
         flex-direction: row !important;
-        margin-left: 1rem !important;
+        margin-left: 6.5rem !important;
         cursor: pointer;
         position: relative;
         top: -2rem;
-        width: 19rem;
+        width: 37rem;
         height: 10rem;
         overflow-x: scroll;
     }
+
+    .photo::-webkit-scrollbar {
+        width: 1rem;
+        /* width of the entire scrollbar */
+    }
+    
+    .photo::-webkit-scrollbar-track {
+        border-radius: 1px
+    }
+    
+    .photo::-webkit-scrollbar-thumb {
+        border-radius: 1px;
+        /* roundness of the scroll thumb */
+    }
+    
     .image-container{
         border-radius:0rem;
     }
@@ -1111,8 +1337,8 @@ export default {
 
     .content{
         position: relative;
-        top: -2rem;
-        width: 16.5rem;
+        top: -3rem;
+        width: 35rem;
     }
 
     .heading1{
