@@ -2,12 +2,12 @@
    
     <div v-if="loading" class="loading-indicator">
         <div class="spinner"></div>
-        Loading....
+        <span>Loading....</span><br>
+        <span>please view in Desktop mode for better view</span>
     </div>
-    <div v-else>
+    <div v-else class="container">
         <iframe 
-        width="1600" 
-        height="2000" 
+        class="dashboard" 
         src="https://lookerstudio.google.com/embed/reporting/91bdf505-5ace-4cc1-b2bd-69f43ff5e089/page/txrhD" 
         frameborder="0" 
         style="border:0" 
@@ -64,4 +64,19 @@ export default {
     }
 }
 
+.dashboard{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+        /*width="1600" 
+        height="2000"*/
+
+/*@media only screen and (max-width: 320px) {
+    .dashboard{
+        display:flex;
+        height:380px !important;
+    } 
+}*/
 </style>
