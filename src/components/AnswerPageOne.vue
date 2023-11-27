@@ -97,9 +97,7 @@
             <div class="image-container-4">
                 <img alt="Diploma" class="photo4" src="../assets/Shrirang-Sapate.png">
             </div>
-            <div class="context-card">I am a student at IIT Madras. I am currently pursuing my Masters in Computer Science
-                and Engineering. I am a part of the Computer Vision and Image Processing Lab at IIT Madras. I am working on
-                the project "Deep Learning for Autonomous Driving..."</div>
+            <div class="context-card">Meet Shrirang, a Data Science student at IIT Madras. From probing the depths of Astrophysics alongside NASA for a year, he's now charting the frontiers of Data Science.Not just crunching numbers; he's published a ML papers and ignited campus culture with his vibrant event leadership.</div>
         </div>
 
         <div class="data">
@@ -127,14 +125,14 @@
     <div class="border"></div>
 
     <div class="content">
-        <div class="heading1">Know about Shrirang</div>
+        <router-link to="/shrirang-sapate" class="heading1">Know Shrirang Sapate</router-link>
+        <!-- <div class="heading1">Know about Shrirang</div> -->
         <div class="slug">
-            <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span>
+            <router-link to="/shrirang-sapate">https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical'
+                    class="icons-subheader"></fa></router-link>
+            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
         </div>
-        <div class="context">I am a student at IIT Madras. I am currently pursuing my Masters in Computer Science and
-            Engineering. I am a part of the Computer Vision and Image Processing Lab at IIT Madras. I am working on the
-            project "Deep Learning for Autonomous Driving". I am also working on the project "Deep Learning for Autonomous
-            Driving".</div>
+        <div class="context">Meet Shrirang Sapate, a trailblazing Data Science student at IIT Madras. From probing the depths of Astrophysics alongside NASA for three stellar years, he's now charting the frontiers of Data Science. He's not just crunching numbers; he's published a Machine Learning gem during an internship and ignited campus culture with his vibrant event leadership.</div>
     </div>
 
     <div class="content">
@@ -180,6 +178,37 @@
             914 Followers, 1,085 Following, 42 Posts - See Instagram photos and videos from shrirang (@shrirangswarge)
         </div>
     </div>
+
+    <div class="content">
+        <a href="https://www.youtube.com/watch?v=K-UkKcH79YI" class="heading1">Paradox Cultural Team | IIT Madras</a>
+        <div class="slug">
+            <a href="https://www.youtube.com/watch?v=K-UkKcH79YI">https://www.youtube.com > watch <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+        </div>
+        <div class="context">
+            Shrirang Sapate. 23. Subscribe. 23 subscribers. 1. Share. Save. Report. Comments. 2:45·Go to channel. IIT Madras Hostel Willkommen'14 150 sec Short Film ...
+        </div>
+    </div>
+
+    <div class="content">
+        <a href="https://www.iitmbs.org/societies/akord" class="heading1">Akord Music Society - IIT Madras BS Students</a>
+        <div class="slug">
+            <a href="https://www.iitmbs.org/societies/akord">https://www.iitmbs.org > socities > akord <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+        </div>
+        <div class="context">
+            Core team. Shrirang Sapate. 21f1002870@ds.study.iitm.ac.in. quick links. Student ... All rights reserved © 2023 IIT Madras BS Students Community Website ...
+        </div>
+    </div>
+
+    <div class="content">
+        <a href="https://study.iitm.ac.in/ds/" class="heading1">IIT Madras Degree Program in Data Science and ...</a>
+        <div class="slug">
+            <a href="https://study.iitm.ac.in/ds/">https://study.iitm.ac.in > ... <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+        </div>
+        <div class="context">
+            IIT Madras, India's top technical institute, welcomes you to the world's first 4-year Bachelor of Science (BS) Degree in Data Science and Applications with ...
+            <br>Academics page · Admissions · Academic Calendar · About IITM
+        </div>
+    </div><br>
 
     <!-- <div class='content'>Lorem Ipsum is simply dummy text...</div> -->
 </template>

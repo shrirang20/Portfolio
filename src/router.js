@@ -10,7 +10,7 @@ const routes = [
     {
         name:'Home',
         component: HomePage,
-        path: '/home'
+        path: '/shrirang-sapate'
     },
     {
         name:'About',
