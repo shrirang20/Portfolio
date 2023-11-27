@@ -382,7 +382,7 @@ export default {
     margin-right: 2px;
     padding: 9px;
     width: 200px;
-    height: 236px;
+    height: 258px;
     border: 1px solid #ededed;
     border-bottom-right-radius: 42px;
     border-bottom-left-radius: 42px;
