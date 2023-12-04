@@ -1,4 +1,4 @@
-import HomePage from './components/Home.vue'
+import ShrirangSapate from './components/ShrirangSapate.vue'
 import AboutPage from './components/About.vue'
 import QuestionPage from './components/Question.vue'
 import AnswerPageOne from './components/AnswerPageOne.vue'
@@ -8,8 +8,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
     {
-        name:'Home',
-        component: HomePage,
+        name:'ShrirangSapate',
+        component: ShrirangSapate,
         path: '/shrirang-sapate'
     },
     {

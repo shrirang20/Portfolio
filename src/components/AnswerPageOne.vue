@@ -88,16 +88,18 @@
             <div class="image-container-3">
                 <img alt="Diploma" class="photo3" src="../assets/Diploma.png">
             </div>
-            
+
         </div>
-        <div class="image-container-5">
+        <!-- <div class="image-container-5">
             <img alt="Shrirang-Stage" class="photo5" src="../assets/1.png">
-        </div>
+        </div> -->
         <div class="card2">
             <div class="image-container-4">
                 <img alt="Diploma" class="photo4" src="../assets/Shrirang-Sapate.png">
             </div>
-            <div class="context-card">Meet Shrirang, a Data Science student at IIT Madras. From probing the depths of Astrophysics alongside NASA for a year, he's now charting the frontiers of Data Science.Not just crunching numbers; he's published a ML papers and ignited campus culture with his vibrant event leadership.</div>
+            <div class="context-card">Meet Shrirang, a Data Science student at IIT Madras. From probing the depths of
+                Astrophysics alongside NASA for a year, he's now charting the frontiers of Data Science.Not just crunching
+                numbers; he's published a ML papers and ignited campus culture with his vibrant event leadership.</div>
         </div>
 
         <div class="data">
@@ -132,47 +134,64 @@
                     class="icons-subheader"></fa></router-link>
             <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
         </div>
-        <div class="context">Meet Shrirang Sapate, a trailblazing Data Science student at IIT Madras. From probing the depths of Astrophysics alongside NASA for three stellar years, he's now charting the frontiers of Data Science. He's not just crunching numbers; he's published a Machine Learning gem during an internship and ignited campus culture with his vibrant event leadership.</div>
+        <div class="context">Meet Shrirang Sapate, a trailblazing Data Science student at IIT Madras. From probing the
+            depths of Astrophysics alongside NASA for three stellar years, he's now charting the frontiers of Data Science.
+            He's not just crunching numbers; he's published a Machine Learning gem during an internship and ignited campus
+            culture with his vibrant event leadership.</div>
     </div>
 
     <div class="content">
         <a href="https://in.linkedin.com/in/shriraangsapaate" class="heading1">Shriraang Sapate</a>
         <div class="slug">
-            <a href="https://in.linkedin.com/in/shriraangsapaate">https://in.linkedin.com/in/shriraangsapaate <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+            <a href="https://in.linkedin.com/in/shriraangsapaate">https://in.linkedin.com/in/shriraangsapaate <fa
+                    icon='ellipsis-vertical' class="icons-subheader"></fa></a>
         </div>
         <div class="context">Chennai, Tamil Nadu, India · Akord Music Society<br>
-            I am a motivated Data Analyst with expertise in data science and application. I possess a strong background in developing machine learning models and ...</div>
+            I am a motivated Data Analyst with expertise in data science and application. I possess a strong background in
+            developing machine learning models and ...</div>
     </div>
 
     <div class="content">
-        <a href="https://arxiv.org/abs/2111.04003" class="heading1">Predictive Model for Gross Community Production Rate of ...</a>
+        <a href="https://arxiv.org/abs/2111.04003" class="heading1">Predictive Model for Gross Community Production Rate of
+            ...</a>
         <div class="slug">
-            <a href="https://arxiv.org/abs/2111.04003">https://arxiv.org > cs <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+            <a href="https://arxiv.org/abs/2111.04003">https://arxiv.org > cs <fa icon='ellipsis-vertical'
+                    class="icons-subheader"></fa></a>
         </div>
-        <div class="context">by S Sapate · 2021 — ... Shrirang Sapate, Reenasree S, Vigneash M. Download a PDF of the paper titled Predictive Model for Gross Community Production Rate of Coral ...</div>
+        <div class="context">by S Sapate · 2021 — ... Shrirang Sapate, Reenasree S, Vigneash M. Download a PDF of the paper
+            titled Predictive Model for Gross Community Production Rate of Coral ...</div>
     </div>
 
     <div class="content">
-        <a href="https://arxiv.org/pdf/2111.04003" class="heading1">Predictive Model for Gross Community Production Rate of ...</a>
+        <a href="https://arxiv.org/pdf/2111.04003" class="heading1">Predictive Model for Gross Community Production Rate of
+            ...</a>
         <div class="slug">
-            <a href="https://arxiv.org/pdf/2111.04003">https://arxiv.org > pdf <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+            <a href="https://arxiv.org/pdf/2111.04003">https://arxiv.org > pdf <fa icon='ellipsis-vertical'
+                    class="icons-subheader"></fa></a>
         </div>
-        <div class="context">by S Sapate · 2021 — ... Shrirang Sapate,. Reenasree S, Vigneash M. C. Page 2. 2. Anthropogenic activities like chemical pollution, industrial pollution, mechanical damage, nutrient ...</div>
+        <div class="context">by S Sapate · 2021 — ... Shrirang Sapate,. Reenasree S, Vigneash M. C. Page 2. 2. Anthropogenic
+            activities like chemical pollution, industrial pollution, mechanical damage, nutrient ...</div>
     </div>
 
     <div class="content">
-        <a href="https://www.ijser.org/researchpaper/Comparative-study-on-designs-of-air-propelled-rocket-for-achieving-higher-altitude.pdf" class="heading1">Comparative-study-on-designs-of-air-propelled-rocket-for- ...</a>
+        <a href="https://www.ijser.org/researchpaper/Comparative-study-on-designs-of-air-propelled-rocket-for-achieving-higher-altitude.pdf"
+            class="heading1">Comparative-study-on-designs-of-air-propelled-rocket-for- ...</a>
         <div class="slug">
-            <a href="https://www.ijser.org/researchpaper/Comparative-study-on-designs-of-air-propelled-rocket-for-achieving-higher-altitude.pdf">https://www.ijser.org > researchpaper > Comparative-Stud... <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+            <a
+                href="https://www.ijser.org/researchpaper/Comparative-study-on-designs-of-air-propelled-rocket-for-achieving-higher-altitude.pdf">https://www.ijser.org
+                > researchpaper > Comparative-Stud... <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
         </div>
-        <div class="context">Shrirang Sapate [1], Vikram Londhe [2]. Abstract- Model rockets are essentially unguided models of a rocket that are a paramount mode to learn and simulate ...
+        <div class="context">Shrirang Sapate [1], Vikram Londhe [2]. Abstract- Model rockets are essentially unguided models
+            of a rocket that are a paramount mode to learn and simulate ...
         </div>
     </div>
 
     <div class="content">
-        <a href="https://www.instagram.com/_shriraang_/" class="heading1">Shriraang Sapaate(@_shriraang_) • Instagram photos and...</a>
+        <a href="https://www.instagram.com/_shriraang_/" class="heading1">Shriraang Sapaate(@_shriraang_) • Instagram photos
+            and...</a>
         <div class="slug">
-            <a href="https://www.instagram.com/_shriraang_/">https://www.instagram.com > shrira... <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+            <a href="https://www.instagram.com/_shriraang_/">https://www.instagram.com > shrira... <fa
+                    icon='ellipsis-vertical' class="icons-subheader"></fa></a>
         </div>
         <div class="context">
             914 Followers, 1,085 Following, 42 Posts - See Instagram photos and videos from shrirang (@shrirangswarge)
@@ -182,31 +201,62 @@
     <div class="content">
         <a href="https://www.youtube.com/watch?v=K-UkKcH79YI" class="heading1">Paradox Cultural Team | IIT Madras</a>
         <div class="slug">
-            <a href="https://www.youtube.com/watch?v=K-UkKcH79YI">https://www.youtube.com > watch <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+            <a href="https://www.youtube.com/watch?v=K-UkKcH79YI">https://www.youtube.com > watch <fa
+                    icon='ellipsis-vertical' class="icons-subheader"></fa></a>
         </div>
         <div class="context">
-            Shrirang Sapate. 23. Subscribe. 23 subscribers. 1. Share. Save. Report. Comments. 2:45·Go to channel. IIT Madras Hostel Willkommen'14 150 sec Short Film ...
+            Shrirang Sapate. 23. Subscribe. 23 subscribers. 1. Share. Save. Report. Comments. 2:45·Go to channel. IIT Madras
+            Hostel Willkommen'14 150 sec Short Film ...
         </div>
     </div>
 
     <div class="content">
         <a href="https://www.iitmbs.org/societies/akord" class="heading1">Akord Music Society - IIT Madras BS Students</a>
         <div class="slug">
-            <a href="https://www.iitmbs.org/societies/akord">https://www.iitmbs.org > socities > akord <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+            <a href="https://www.iitmbs.org/societies/akord">https://www.iitmbs.org > socities > akord <fa
+                    icon='ellipsis-vertical' class="icons-subheader"></fa></a>
         </div>
         <div class="context">
-            Core team. Shrirang Sapate. 21f1002870@ds.study.iitm.ac.in. quick links. Student ... All rights reserved © 2023 IIT Madras BS Students Community Website ...
+            Core team. Shrirang Sapate. 21f1002870@ds.study.iitm.ac.in. quick links. Student ... All rights reserved © 2023
+            IIT Madras BS Students Community Website ...
         </div>
     </div>
 
     <div class="content">
         <a href="https://study.iitm.ac.in/ds/" class="heading1">IIT Madras Degree Program in Data Science and ...</a>
         <div class="slug">
-            <a href="https://study.iitm.ac.in/ds/">https://study.iitm.ac.in > ... <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+            <a href="https://study.iitm.ac.in/ds/">https://study.iitm.ac.in > ... <fa icon='ellipsis-vertical'
+                    class="icons-subheader"></fa></a>
         </div>
         <div class="context">
-            IIT Madras, India's top technical institute, welcomes you to the world's first 4-year Bachelor of Science (BS) Degree in Data Science and Applications with ...
+            IIT Madras, India's top technical institute, welcomes you to the world's first 4-year Bachelor of Science (BS)
+            Degree in Data Science and Applications with ...
             <br>Academics page · Admissions · Academic Calendar · About IITM
+        </div>
+    </div>
+
+    <div class="content">
+        <a href="https://conf1.ncra.tifr.res.in/event/4/registrations/participants" class="heading1">Modern Engineering
+            Trends in Astronomy - 2019 - Indico NCRA</a>
+        <div class="slug">
+            <a href="https://conf1.ncra.tifr.res.in/event/4/registrations/participants">https://conf1.ncra.tifr.res.in >
+                registrations > participants <fa icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+        </div>
+        <div class="context">
+            Shrirang, Sapate, Natskies observatory. Shuvam, Bosana, IIIT BANGALORE. Shyama, Narendranath, Indian space
+            research organisation. Somashekar, Ramaiah, Raman ...
+        </div>
+    </div>
+
+    <div class="content">
+        <a href="https://ja.wikipedia.org/wiki/AT2018cow" class="heading1">AT2018cow</a>
+        <div class="slug">
+            <a href="https://ja.wikipedia.org/wiki/AT2018cow">https://ja.wikipedia.org > wiki <fa icon='ellipsis-vertical'
+                    class="icons-subheader"></fa></a>
+        </div>
+        <div class="context">
+            Sapate, Shrirang (2018年7月21日). “AT 2018 COW - the mysterious Supernova”. Natskies Observatory. 2019年2月8日閲覧。
+            Anderson, Paul Scott (2018年7月1日) ...
         </div>
     </div><br>
 
@@ -236,7 +286,7 @@ export default {
     color: #1a0dab;
 }
 
-.content a:hover{
+.content a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -258,9 +308,10 @@ export default {
     margin-right: 10px;
     text-align: left;
 }
+
 .heading1:hover {
     text-decoration: underline;
-}   
+}
 
 .slug {
     color: #4d5156;
@@ -273,6 +324,7 @@ export default {
     text-decoration: none;
     color: #4d5156;
 }
+
 .slug:hover {
     text-decoration: underline;
 }
@@ -343,8 +395,8 @@ export default {
     transform: scale(1.2);
 }
 
-.image-container-5{
-    display:none;
+.image-container-5 {
+    display: none;
 }
 
 
@@ -458,7 +510,7 @@ export default {
     height: 192px;
 }
 
-.video{
+.video {
     width: 282px;
     height: 315px;
     margin: 0px;
@@ -536,15 +588,17 @@ export default {
 }
 
 @media (max-width:320px) {
-    .navbar{
+    .navbar {
         display: flex !important;
         flex-direction: column !important;
-        width:10rem;
+        width: 10rem;
     }
-    .nav{
+
+    .nav {
         width: 1rem;
     }
-    .header-logo{
+
+    .header-logo {
         display: flex;
         position: relative;
         left: -2rem;
@@ -552,14 +606,14 @@ export default {
         text-align: center;
     }
 
-    .dropdown-header{
-        position:relative;
-        left:-4.6rem;
+    .dropdown-header {
+        position: relative;
+        left: -4.6rem;
         height: 5rem;
-    
+
     }
 
-    .box-header{
+    .box-header {
         position: relative;
         max-width: 19rem;
         font-size: 16px !important;
@@ -567,91 +621,91 @@ export default {
         left: 0.1rem;
     }
 
-    .icons{
-        display:none !important;
-    }
-
-    .nav-header{
+    .icons {
         display: none !important;
-        
     }
 
-    .nav-bar2{
+    .nav-header {
+        display: none !important;
+
+    }
+
+    .nav-bar2 {
         display: flex !important;
         flex-direction: column !important;
         width: 19rem;
         position: relative;
         left: 0rem;
         overflow: scroll;
-        top:-1rem;
+        top: -1rem;
     }
 
     .nav-bar2::-webkit-scrollbar {
         width: 1rem;
         /* width of the entire scrollbar */
     }
-    
+
     .nav-bar2::-webkit-scrollbar-track {
         border-radius: 1px
     }
-    
+
     .nav-bar2::-webkit-scrollbar-thumb {
         border-radius: 1px;
         /* roundness of the scroll thumb */
     }
 
-    .nav2-content{
+    .nav2-content {
         font-size: 13px !important;
     }
 
-    .nav2-content .icons-subheader{
+    .nav2-content .icons-subheader {
         font-size: 13px !important;
         position: relative;
         left: -0.7rem;
-        margin-bottom:0.2rem;
+        margin-bottom: 0.2rem;
     }
 
-    .nav2-content span{
+    .nav2-content span {
         display: flex !important;
         flex-direction: column !important;
-        position:relative;
-        margin-right:1rem;
-        left:-1rem;
+        position: relative;
+        margin-right: 1rem;
+        left: -1rem;
     }
 
-    .border{
+    .border {
         position: relative;
         left: -1.1rem;
         width: 20rem;
-        top:-3rem;
+        top: -3rem;
     }
 
-    .subheader{
+    .subheader {
         display: flex !important;
         flex-direction: column !important;
         margin-left: 0rem !important;
         margin-right: 0rem !important;
         margin-top: 0rem !important;
         position: relative;
-        top:-2rem;
+        top: -2rem;
     }
 
-    .name{
+    .name {
         margin-top: 0rem;
         position: relative;
         left: 1.3rem;
-    
+
     }
 
-    .heading{
-        font-size:20px;
+    .heading {
+        font-size: 20px;
     }
 
-    .sub-heading{
+    .sub-heading {
         font-size: 13px;
     }
 
-    .photo{
+    .photo {
         display: flex !important;
         flex-direction: row !important;
         margin-left: 1rem !important;
@@ -662,15 +716,14 @@ export default {
         height: 10rem;
         overflow-x: scroll;
     }
-    .image-container{
-        border-radius:0rem;
+
+    .image-container {
+        border-radius: 0rem;
     }
 
-    .photo1{
+    .photo1 {}
 
-    }
-
-    .column-2{
+    .column-2 {
         display: flex !important;
         flex-direction: row !important;
         height: 10rem;
@@ -678,82 +731,82 @@ export default {
 
     }
 
-    .image-container-2{
-        border-radius:0rem;
+    .image-container-2 {
+        border-radius: 0rem;
         height: auto;
         width: 16rem;
     }
 
-    .photo2{
+    .photo2 {
         height: auto;
         width: 16rem;
     }
 
-    .image-container-3{
+    .image-container-3 {
         height: auto;
         width: 12.5rem;
         border-bottom-right-radius: 0rem;
     }
 
-    .photo3{
+    .photo3 {
         height: auto;
         width: 12.5rem;
     }
 
-    .image-container-5{
+    .image-container-5 {
         display: flex !important;
         flex-direction: row !important;
         height: auto;
         width: 15rem;
     }
 
-    .photo5{
+    .photo5 {
         height: 8.5rem;
         width: 14rem;
     }
 
-    .card2{
-        display:none;
+    .card2 {
+        display: none;
     }
 
-    .data{
+    .data {
         display: none;
     }
 
 
-    .content{
+    .content {
         position: relative;
         top: -2rem;
         width: 16rem;
     }
 
-    .heading1{
+    .heading1 {
         font-size: 20px;
     }
 
-    .slug{
+    .slug {
         font-size: 13px;
     }
 
-    .slug .icons-subheader{
-        margin-left:0.5rem;
+    .slug .icons-subheader {
+        margin-left: 0.5rem;
     }
 
-    .context{
-
-    }
+    .context {}
 }
 
-@media (min-width:321px) and (max-width:375px){
-    .navbar{
+@media (min-width:321px) and (max-width:375px) {
+    .navbar {
         display: flex !important;
         flex-direction: column !important;
-        width:10rem;
+        width: 10rem;
     }
-    .nav{
+
+    .nav {
         width: 1rem;
     }
-    .header-logo{
+
+    .header-logo {
         display: flex;
         position: relative;
         font-size: 30px !important;
@@ -761,14 +814,14 @@ export default {
         margin-left: 3.5rem !important;
     }
 
-    .dropdown-header{
-        position:relative;
-        left:-3.5rem;
+    .dropdown-header {
+        position: relative;
+        left: -3.5rem;
         height: 5rem;
-    
+
     }
 
-    .box-header{
+    .box-header {
         position: relative;
         max-width: 20rem;
         font-size: 16px !important;
@@ -776,92 +829,92 @@ export default {
         left: 0.1rem;
     }
 
-    .icons{
-        display:none !important;
-    }
-
-    .nav-header{
+    .icons {
         display: none !important;
-        
     }
 
-    .nav-bar2{
+    .nav-header {
+        display: none !important;
+
+    }
+
+    .nav-bar2 {
         display: flex !important;
         flex-direction: column !important;
         width: 21rem;
         position: relative;
         left: 1rem;
         overflow: scroll;
-        top:-1rem;
+        top: -1rem;
     }
 
     .nav-bar2::-webkit-scrollbar {
         width: 1rem;
         /* width of the entire scrollbar */
     }
-    
+
     .nav-bar2::-webkit-scrollbar-track {
         border-radius: 1px
     }
-    
+
     .nav-bar2::-webkit-scrollbar-thumb {
         border-radius: 1px;
         /* roundness of the scroll thumb */
     }
 
-    .nav2-content{
+    .nav2-content {
         font-size: 14px !important;
     }
 
-    .nav2-content .icons-subheader{
+    .nav2-content .icons-subheader {
         font-size: 14px !important;
         position: relative;
         left: -0.7rem;
-        margin-bottom:0.2rem;
+        margin-bottom: 0.2rem;
     }
 
-    .nav2-content span{
+    .nav2-content span {
         display: flex !important;
         flex-direction: column !important;
-        position:relative;
-        margin-right:1rem;
-        left:-1rem;
+        position: relative;
+        margin-right: 1rem;
+        left: -1rem;
     }
 
-    .border{
+    .border {
         position: relative;
         left: -1.1rem;
         width: 20rem;
-        top:-3rem;
+        top: -3rem;
     }
 
-    .subheader{
+    .subheader {
         display: flex !important;
         flex-direction: column !important;
         margin-left: 1rem !important;
         margin-right: 0rem !important;
         margin-top: 0rem !important;
         position: relative;
-        top:-2rem;
+        top: -2rem;
     }
 
-    .name{
+    .name {
         margin-top: 0rem;
         position: relative;
         left: 1.3rem;
-    
+
     }
 
-    .heading{
-        font-size:20px;
+    .heading {
+        font-size: 20px;
     }
 
-    .sub-heading{
+    .sub-heading {
         font-size: 13px;
-        
+
     }
 
-    .photo{
+    .photo {
         display: flex !important;
         flex-direction: row !important;
         margin-left: 2rem !important;
@@ -872,15 +925,14 @@ export default {
         height: 10rem;
         overflow-x: scroll;
     }
-    .image-container{
-        border-radius:0rem;
+
+    .image-container {
+        border-radius: 0rem;
     }
 
-    .photo1{
+    .photo1 {}
 
-    }
-
-    .column-2{
+    .column-2 {
         display: flex !important;
         flex-direction: row !important;
         height: 10rem;
@@ -888,83 +940,83 @@ export default {
 
     }
 
-    .image-container-2{
-        border-radius:0rem;
+    .image-container-2 {
+        border-radius: 0rem;
         height: auto;
         width: 16rem;
     }
 
-    .photo2{
+    .photo2 {
         height: auto;
         width: 16rem;
     }
 
-    .image-container-3{
+    .image-container-3 {
         height: auto;
         width: 12.5rem;
         border-bottom-right-radius: 0rem;
     }
 
-    .photo3{
+    .photo3 {
         height: auto;
         width: 12.5rem;
     }
 
-    .image-container-5{
+    .image-container-5 {
         display: flex !important;
         flex-direction: row !important;
         height: auto;
         width: 15rem;
     }
 
-    .photo5{
+    .photo5 {
         height: 8.5rem;
         width: 14rem;
     }
 
-    .card2{
-        display:none;
+    .card2 {
+        display: none;
     }
 
-    .data{
+    .data {
         display: none;
     }
 
 
-    .content{
+    .content {
         position: relative;
         top: -2rem;
         width: 18.5rem;
     }
 
-    .heading1{
+    .heading1 {
         font-size: 19px;
     }
 
-    .slug{
+    .slug {
         font-size: 13px;
         text-align: left;
     }
 
-    .slug .icons-subheader{
-        margin-left:0.5rem;
+    .slug .icons-subheader {
+        margin-left: 0.5rem;
     }
 
-    .context{
-
-    }
+    .context {}
 }
 
-@media (min-width:376px) and (max-width:425px){
-    .navbar{
+@media (min-width:376px) and (max-width:425px) {
+    .navbar {
         display: flex !important;
         flex-direction: column !important;
-        width:10rem;
+        width: 10rem;
     }
-    .nav{
+
+    .nav {
         width: 1rem;
     }
-    .header-logo{
+
+    .header-logo {
         display: flex;
         position: relative;
         left: -1rem;
@@ -972,14 +1024,14 @@ export default {
         text-align: center;
     }
 
-    .dropdown-header{
-        position:relative;
-        left:-2.6rem;
+    .dropdown-header {
+        position: relative;
+        left: -2.6rem;
         height: 5rem;
-    
+
     }
 
-    .box-header{
+    .box-header {
         position: relative;
         max-width: 21rem;
         font-size: 16px !important;
@@ -987,91 +1039,91 @@ export default {
         left: 0.1rem;
     }
 
-    .icons{
-        display:none !important;
-    }
-
-    .nav-header{
+    .icons {
         display: none !important;
-        
     }
 
-    .nav-bar2{
+    .nav-header {
+        display: none !important;
+
+    }
+
+    .nav-bar2 {
         display: flex !important;
         flex-direction: column !important;
         width: 24rem;
         position: relative;
         left: 1rem;
         overflow: scroll;
-        top:-1rem;
+        top: -1rem;
     }
 
     .nav-bar2::-webkit-scrollbar {
         width: 1rem;
         /* width of the entire scrollbar */
     }
-    
+
     .nav-bar2::-webkit-scrollbar-track {
         border-radius: 1px
     }
-    
+
     .nav-bar2::-webkit-scrollbar-thumb {
         border-radius: 1px;
         /* roundness of the scroll thumb */
     }
 
-    .nav2-content{
+    .nav2-content {
         font-size: 13px !important;
     }
 
-    .nav2-content .icons-subheader{
+    .nav2-content .icons-subheader {
         font-size: 13px !important;
         position: relative;
         left: -0.7rem;
-        margin-bottom:0.2rem;
+        margin-bottom: 0.2rem;
     }
 
-    .nav2-content span{
+    .nav2-content span {
         display: flex !important;
         flex-direction: column !important;
-        position:relative;
-        margin-right:1rem;
-        left:-1rem;
+        position: relative;
+        margin-right: 1rem;
+        left: -1rem;
     }
 
-    .border{
+    .border {
         position: relative;
         left: -1rem;
         width: 20rem;
-        top:-3rem;
+        top: -3rem;
     }
 
-    .subheader{
+    .subheader {
         display: flex !important;
         flex-direction: column !important;
         margin-left: 1.5rem !important;
         margin-right: 0rem !important;
         margin-top: 0rem !important;
         position: relative;
-        top:-2rem;
+        top: -2rem;
     }
 
-    .name{
+    .name {
         margin-top: 0rem;
         position: relative;
         left: 1.3rem;
-    
+
     }
 
-    .heading{
-        font-size:20px;
+    .heading {
+        font-size: 20px;
     }
 
-    .sub-heading{
+    .sub-heading {
         font-size: 13px;
     }
 
-    .photo{
+    .photo {
         display: flex !important;
         flex-direction: row !important;
         margin-left: 2.5rem !important;
@@ -1082,15 +1134,14 @@ export default {
         height: 10rem;
         overflow-x: scroll;
     }
-    .image-container{
-        border-radius:0rem;
+
+    .image-container {
+        border-radius: 0rem;
     }
 
-    .photo1{
+    .photo1 {}
 
-    }
-
-    .column-2{
+    .column-2 {
         display: flex !important;
         flex-direction: row !important;
         height: 10rem;
@@ -1098,82 +1149,82 @@ export default {
 
     }
 
-    .image-container-2{
-        border-radius:0rem;
+    .image-container-2 {
+        border-radius: 0rem;
         height: auto;
         width: 16rem;
     }
 
-    .photo2{
+    .photo2 {
         height: auto;
         width: 16rem;
     }
 
-    .image-container-3{
+    .image-container-3 {
         height: auto;
         width: 12.5rem;
         border-bottom-right-radius: 0rem;
     }
 
-    .photo3{
+    .photo3 {
         height: auto;
         width: 12.5rem;
     }
 
-    .image-container-5{
+    .image-container-5 {
         display: flex !important;
         flex-direction: row !important;
         height: auto;
         width: 15rem;
     }
 
-    .photo5{
+    .photo5 {
         height: 8.5rem;
         width: 14rem;
     }
 
-    .card2{
-        display:none;
+    .card2 {
+        display: none;
     }
 
-    .data{
+    .data {
         display: none;
     }
 
 
-    .content{
+    .content {
         position: relative;
         top: -2rem;
         width: 21rem;
     }
 
-    .heading1{
+    .heading1 {
         font-size: 20px;
     }
 
-    .slug{
+    .slug {
         font-size: 13px;
     }
 
-    .slug .icons-subheader{
-        margin-left:0.5rem;
+    .slug .icons-subheader {
+        margin-left: 0.5rem;
     }
 
-    .context{
-
-    }
+    .context {}
 }
 
-@media (min-width:426px) and (max-width:768px){
-    .navbar{
+@media (min-width:426px) and (max-width:768px) {
+    .navbar {
         display: flex !important;
         flex-direction: column !important;
-        width:10rem;
+        width: 10rem;
     }
-    .nav{
+
+    .nav {
         width: 1rem;
     }
-    .header-logo{
+
+    .header-logo {
         display: flex;
         position: relative;
         left: 6.5rem;
@@ -1181,13 +1232,13 @@ export default {
         text-align: center;
     }
 
-    .dropdown-header{
+    .dropdown-header {
         position: relative;
         left: -2.65rem;
         height: 7rem;
     }
 
-    .box-header{
+    .box-header {
         position: relative;
         max-width: 36rem;
         font-size: 16px !important;
@@ -1195,91 +1246,91 @@ export default {
         left: 0.5rem;
     }
 
-    .icons{
-        display:none !important;
-    }
-
-    .nav-header{
+    .icons {
         display: none !important;
-        
     }
 
-    .nav-bar2{
+    .nav-header {
+        display: none !important;
+
+    }
+
+    .nav-bar2 {
         display: flex !important;
         flex-direction: column !important;
         width: 41rem;
         position: relative;
         left: -1rem;
         overflow: scroll;
-        top:-2rem;
+        top: -2rem;
     }
 
     .nav-bar2::-webkit-scrollbar {
         width: 1rem;
         /* width of the entire scrollbar */
     }
-    
+
     .nav-bar2::-webkit-scrollbar-track {
         border-radius: 1px
     }
-    
+
     .nav-bar2::-webkit-scrollbar-thumb {
         border-radius: 1px;
         /* roundness of the scroll thumb */
     }
 
-    .nav2-content{
+    .nav2-content {
         font-size: 14px !important;
     }
 
-    .nav2-content .icons-subheader{
+    .nav2-content .icons-subheader {
         font-size: 14px !important;
         position: relative;
         left: -0.7rem;
-        margin-bottom:0.2rem;
+        margin-bottom: 0.2rem;
     }
 
-    .nav2-content span{
+    .nav2-content span {
         display: flex !important;
         flex-direction: column !important;
-        position:relative;
-        margin-right:1rem;
-        left:-1rem;
+        position: relative;
+        margin-right: 1rem;
+        left: -1rem;
     }
 
-    .border{
+    .border {
         position: relative;
         left: -1rem;
         width: 36rem;
-        top:-4rem;
+        top: -4rem;
     }
 
-    .subheader{
+    .subheader {
         display: flex !important;
         flex-direction: column !important;
         margin-left: 2.5rem !important;
         margin-right: 0rem !important;
         margin-top: 0rem !important;
         position: relative;
-        top:-2rem;
+        top: -2rem;
     }
 
-    .name{
+    .name {
         margin-top: 0rem;
         position: relative;
         left: 0.3rem;
-    
+
     }
 
-    .heading{
-        font-size:20px;
+    .heading {
+        font-size: 20px;
     }
 
-    .sub-heading{
+    .sub-heading {
         font-size: 13px;
     }
 
-    .photo{
+    .photo {
         display: flex !important;
         flex-direction: row !important;
         margin-left: 3rem !important;
@@ -1295,25 +1346,23 @@ export default {
         width: 1rem;
         /* width of the entire scrollbar */
     }
-    
+
     .photo::-webkit-scrollbar-track {
         border-radius: 1px
     }
-    
+
     .photo::-webkit-scrollbar-thumb {
         border-radius: 1px;
         /* roundness of the scroll thumb */
     }
-    
-    .image-container{
-        border-radius:0rem;
+
+    .image-container {
+        border-radius: 0rem;
     }
 
-    .photo1{
+    .photo1 {}
 
-    }
-
-    .column-2{
+    .column-2 {
         display: flex !important;
         flex-direction: row !important;
         height: 10rem;
@@ -1321,75 +1370,74 @@ export default {
 
     }
 
-    .image-container-2{
-        border-radius:0rem;
+    .image-container-2 {
+        border-radius: 0rem;
         height: auto;
         width: 16rem;
     }
 
-    .photo2{
+    .photo2 {
         height: auto;
         width: 16rem;
     }
 
-    .image-container-3{
+    .image-container-3 {
         height: auto;
         width: 12.5rem;
         border-bottom-right-radius: 0rem;
     }
 
-    .photo3{
+    .photo3 {
         height: auto;
         width: 12.5rem;
     }
 
-    .image-container-5{
+    .image-container-5 {
         display: flex !important;
         flex-direction: row !important;
         height: auto;
         width: 15rem;
     }
 
-    .photo5{
+    .photo5 {
         height: 8.5rem;
         width: 14rem;
     }
 
-    .card2{
-        display:none;
+    .card2 {
+        display: none;
     }
 
-    .data{
+    .data {
         display: none;
     }
 
 
-    .content{
+    .content {
         position: relative;
         top: -3rem;
         width: 35rem;
     }
 
-    .heading1{
+    .heading1 {
         font-size: 20px;
     }
 
-    .slug{
+    .slug {
         font-size: 13px;
     }
 
-    .slug .icons-subheader{
-        margin-left:0.5rem;
+    .slug .icons-subheader {
+        margin-left: 0.5rem;
     }
 
-    .context{
-
-    }
+    .context {}
 }
-@media (min-width:769px) and (max-width:1024px){
-    
-    
-    .header-logo{
+
+@media (min-width:769px) and (max-width:1024px) {
+
+
+    .header-logo {
         display: flex;
         position: relative;
         font-size: 27px !important;
@@ -1397,25 +1445,25 @@ export default {
         justify-content: center;
         top: 0.3rem;
     }
-    
-    .box-header{
+
+    .box-header {
         position: relative;
         max-width: 33rem;
         font-size: 16px !important;
         max-height: 3rem;
     }
-    
+
     /*.icons{
         display:none !important;
     }*/
-    
-    .nav-header{
+
+    .nav-header {
         position: relative;
         position: relative;
-        top: 0.5rem;   
+        top: 0.5rem;
     }
-    
-    .photo{
+
+    .photo {
         display: flex !important;
         flex-direction: row !important;
         /* margin-left: 3rem !important; */
@@ -1425,54 +1473,51 @@ export default {
         width: 71rem;
         /* height: 10rem; */
         overflow-x: scroll;
-    }    
-    
-   .image-container{
-        width: 11rem ;
-        height: 19rem ;
-        display: flex;
-    }
-========================================================================================================================
-    
-    .photo1{
-    
     }
 
-    .column-2{
+    .image-container {
+        width: 11rem;
+        height: 19rem;
+        display: flex;
+    }
+
+    ========================================================================================================================.photo1 {}
+
+    .column-2 {
         display: flex !important;
 
     }
 
-    .image-container-2{
-        border-radius:0rem;
+    .image-container-2 {
+        border-radius: 0rem;
         height: auto;
         width: 18rem;
     }
 
-    .photo2{
+    .photo2 {
         height: auto;
         width: 17rem;
-        border-top-right-radius:42px;
+        border-top-right-radius: 42px;
     }
 
-    .image-container-3{
+    .image-container-3 {
         height: 10rem;
         width: 18rem;
         border-bottom-right-radius: 0rem;
     }
 
-    .photo3{
+    .photo3 {
         height: 10rem;
         width: 17rem;
-        border-bottom-right-radius:42px;
+        border-bottom-right-radius: 42px;
     }
-    
-    .card2{
+
+    .card2 {
         display: flex;
         height: 19rem;
     }
 
-    .image-container-4{
+    .image-container-4 {
         display: flex;
         height: 15rem;
         width: 11rem;
@@ -1480,45 +1525,41 @@ export default {
         border-top-right-radius: 1rem;
     }
 
-    .photo4{
+    .photo4 {
         display: flex;
     }
 
-    .context-card{
+    .context-card {
         display: flex;
         width: 11rem;
         height: 10rem;
         overflow: hidden;
         border-bottom-right-radius: 1rem;
         border-bottom-left-radius: 1rem;
-        }
-    
-
-    .data{
-       
     }
 
-    .row1{
 
-    }
+    .data {}
 
-    .cards{
+    .row1 {}
+
+    .cards {
         display: flex;
         height: 8rem;
         width: 9rem;
     }
 
-    .age-value{
+    .age-value {
         display: flex;
         margin-top: 3rem !important;
     }
 
-    .cards-video{
+    .cards-video {
         display: flex;
         height: 10.5rem;
     }
 
-    .content{
+    .content {
         position: relative;
         width: 35rem;
     }
