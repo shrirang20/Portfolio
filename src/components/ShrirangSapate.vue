@@ -360,7 +360,7 @@ export default {
   right: 0rem;
   width: 0rem;
   /* margin-left: 0rem; */
-  animation: primary-bd35a398 30s linear infinite;
+  animation: primary 30s linear infinite;
 }
 
 @keyframes primary {
@@ -381,7 +381,7 @@ export default {
   right: 0%;
   width: 0rem;
   margin-left: 24rem;
-  animation: secondary-bd35a398 30s linear infinite;
+  animation: secondary 30s linear infinite;
 
 }
 
