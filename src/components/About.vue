@@ -103,7 +103,7 @@ export default {
                 const selectedQuestionId = output.id
                 console.log("output-about2:", output)
                 console.log("SelectedQuestionId:", selectedQuestionId)
-                this.$router.push(`/answer/${selectedQuestionId}`);
+                this.$router.push(`/${selectedQuestionId}`);
             }
 
             // this.showModal = true;

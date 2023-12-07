@@ -8,12 +8,12 @@
       <span style="color:#4285f4;">F</span>
       <span style="color:#ea4335;">O</span>
       <span style="color:#fbbc05;">L</span>
-      <span style="color:#4285f4;">I</span>
+      <span style="color:#  ;">I</span>
       <span style="color:#34a853;">O</span>
     </router-link>
     <div class="nav">
       <router-link to="/home">Home</router-link> ||
-      <router-link to="/stats">Shrirang's Analytical Journey</router-link>
+      <router-link to="/stats">Shrirang's Analytical Insights</router-link>
       <a href="mailto:official.shriraang@gmail.com" class="mail">Contact</a>
       <!-- <a href="https://drive.google.com/file/d/1aO4J3kvFOUW_kS3NxSfHWU8zAGQGEUhr/view?usp=sharing" class="mail">Download Resume</a> -->
     </div>
@@ -111,18 +111,22 @@
   </div>
 
   <div class="title-timeline">
-    <h2>Shrirang's Journey towards Data Science</h2>
+    <h2>Let's devel deep into Shrirang's Journey</h2>
   </div>
 
   <div class="timeline">
     <div class="container left-container">
       <img src="../assets/logo.png">
       <div class="text-box">
-        <h2>Engineering (B.E)</h2>
-        <small>2013 - 2017</small>
-        <p>I kickstarted my academic journey diving headfirst into Electronics & Telecommunication engineering. However,
-          my fascination with the cosmos led me to pivot towards Astrophysics. Collaborating with NASA's Space Museum, I
-          spent three enriching years delving into the intricate domains of Rocketry design and Radio Astronomy..</p>
+        <h2>Engineering Foundation</h2>
+        <small>June 2013 - May 2017</small>
+        <small style="text-align:left; font-weight:600;">Skills Developed: Technical Proficiency,
+          Problem-solving,
+          Analytical Thinking,
+          Team Collaboration</small>
+        <p>Shrirang's journey commenced with a comprehensive study of Electronics & Telecommunication engineering. This
+          phase was pivotal in cultivating technical proficiency, honing problem-solving abilities, and nurturing
+          analytical skills essential for his subsequent endeavors.</p>
         <span class="left-container-arrow"></span>
       </div>
     </div>
@@ -130,12 +134,31 @@
     <div class="container right-container">
       <img src="../assets/logo.png">
       <div class="text-box">
-        <h2>Natskies Observatory</h2>
-        <small>2017 - 2018</small>
-        <p>Shrirang completed Engineering in Electronics and Telecommunication. Began with an engineering stint in
-          Electronics and Telecommunication before immersing myself in the captivating world of Astrophysics.
-          Collaborating with the prestigious NASA Space Museum, I delved into thrilling research projects involving
-          Rocketry design and Radio Astronomy over three impactful years.</p>
+        <h2> Venturing into Astrophysics</h2>
+        <small>October 2017 - October 2018 </small>
+        <small style="text-align:left; font-weight:600;">Skills Developed: Research Methodology,
+          Radio Astrophysics Introduction,
+          Data Analysis,
+          Presentation Skills</small>
+        <p>Post-engineering, Shrirang delved into Astrophysics at the Natskies Observatory in collaboration with NASA.
+          Here, his initiation into Rocket designing and cosmic exploration expanded his research while introducing him to
+          the realm of Radio Astrophysics, sparking his curiosity in this specialized field.This exposure sparked his
+          curiosity in this specialized field, eventually leading to the publication of a research paper, marking the
+          beginning of his contributions to the scientific community.
+        </p>
+        <a href="https://www.ijser.org/researchpaper/Comparative-study-on-designs-of-air-propelled-rocket-for-achieving-higher-altitude.pdf"
+          class="icon-link">
+          <fa :icon="['fas', 'globe']" class="globe"></fa>
+          <span class="icon-text">View Paper</span>
+        </a>
+        <a href="https://drive.google.com/file/d/1GdHTe7fCGVvTGZuxOsoBaYHDJ8_CtGTe/view?usp=sharing" class="icon-link">
+          <fa :icon="['far', 'file']" class="file"></fa>
+          <span class="icon-text">Certificate</span>
+        </a>
+        <a href="https://drive.google.com/file/d/18X0ch7VwDmmcodeqU-WZ805UVpGgxiOc/view?usp=sharing" class="icon-link">
+          <fa :icon="['far', 'newspaper']" class="news"></fa>
+          <span class="icon-text">Shrirang in News</span>
+        </a>
         <span class="right-container-arrow"></span>
       </div>
     </div>
@@ -143,12 +166,30 @@
     <div class="container left-container">
       <img src="../assets/logo.png">
       <div class="text-box">
-        <h2>Radio Astronomy Research</h2>
-        <small>2018 - 2020</small>
-        <p>Shrirang completed Engineering in Electronics and Telecommunication. Began with an engineering stint in
-          Electronics and Telecommunication before immersing myself in the captivating world of Astrophysics.
-          Collaborating with the prestigious NASA Space Museum, I delved into thrilling research projects involving
-          Rocketry design and Radio Astronomy over three impactful years.</p>
+        <h2>Exploring Radio Astrophysics and Telescope Development</h2>
+        <small>December 2018 - September 2020</small>
+        <small style="text-align:left; font-weight:600;">Skills Developed: Adaptability
+          Hands-on Expertise,
+          Problem-solving in Astronomy,
+          Critical Thinking,
+          Collaboration</small>
+        <p>Transitioning further at MP Birla Institute of Fundamental Research (MPBIFR), Shrirang embarked on a curriculum
+          project, constructing radio telescopes. His groundbreaking work garnered acclaim, earning him a distinction at
+          MPBIFR. This project not only honed his expertise but also fueled a personal exploration, leading to a deeper
+          dive into Radio Astrophysics, laying the groundwork for bridging Astrophysics with Data Science.
+        </p>
+        <a href="https://drive.google.com/file/d/1sGVO5erVoNKZbA-z1baygjA4ZdM79Bje/view?usp=sharing" class="icon-link">
+          <fa :icon="['fas', 'book']" class="globe" />
+          <span class="icon-text">View Dissertaion</span>
+        </a>
+        <a href="https://drive.google.com/file/d/1e-w0Jm_Nc1AlWT4lo2M0-EwZmTM4AzP4/view?usp=sharing" class="icon-link">
+          <fa :icon="['far', 'file']" class="file"></fa>
+          <span class="icon-text">Certificate</span>
+        </a>
+        <a href="https://drive.google.com/file/d/1hz7m32ksHOKAdtgsSDaCehGPpGDTfJBh/view?usp=sharing" class="icon-link">
+          <fa :icon="['fas', 'book-open-reader']" class="news"></fa>
+          <span class="icon-text">at IAU conference, IIT Bombay</span>
+        </a>
         <span class="left-container-arrow"></span>
       </div>
     </div>
@@ -156,12 +197,33 @@
     <div class="container right-container">
       <img src="../assets/logo.png">
       <div class="text-box">
-        <h2>Entry to Data Science</h2>
-        <small>2020 - Today</small>
-        <p>Shrirang completed Engineering in Electronics and Telecommunication. Began with an engineering stint in
-          Electronics and Telecommunication before immersing myself in the captivating world of Astrophysics.
-          Collaborating with the prestigious NASA Space Museum, I delved into thrilling research projects involving
-          Rocketry design and Radio Astronomy over three impactful years.</p>
+        <h2>Bridging Astrophysics with Data Science - IIT Madras</h2>
+        <small>January 2020 - Present</small>
+        <small style="text-align:left; font-weight:600;">Skills Developed: Analytical Thinking,
+          Statistical Application,
+          Programming,
+          Data-driven Insights,
+          Data Visualization</small>
+        <p>The transition from Astrophysics to Data Science at IIT Madras marked a significant shift. His prior
+          exploration in Astrophysics sparked a newfound interest in analytics and data interpretation. This phase
+          initiated his second bachelor's degree, driven by a passion for deriving insights from data.
+        </p>
+        <a href="https://drive.google.com/file/d/1fCwAo1qxwukbWlTRROt72Ret6jyfGR0d/view?usp=sharing" class="icon-link">
+          <fa :icon="['fas', 'link']" class="globe" />
+          <span class="icon-text">IITM admit</span>
+        </a>
+        <a href="https://drive.google.com/file/d/1zvI3Spj6zSayjLH-eBg706oGtuPYTpwU/view?usp=sharing" class="icon-link">
+          <fa :icon="['far', 'file']" class="file"></fa>
+          <span class="icon-text">Diploma in Data Science</span>
+        </a>
+        <a href="https://github.com/shrirang20?tab=repositories " class="icon-link">
+          <fa :icon="['fab', 'github']" class="github-link"></fa>
+          <span class="icon-text">Project work</span>
+        </a>
+        <a href="https://youtu.be/00ruGfPE_Jc " class="icon-link">
+          <fa :icon="['fab', 'youtube']" class="youtube-link"></fa>
+          <span class="icon-text">Receiving Diploma</span>
+        </a>
         <span class="right-container-arrow"></span>
       </div>
     </div>
@@ -169,18 +231,162 @@
     <div class="container left-container">
       <img src="../assets/logo.png">
       <div class="text-box">
-        <h2>Adding Leadership Skills</h2>
+        <h2>Machine Learning Exploration at Genik Research Institute</h2>
+        <small>August 2021 - January 2022</small>
+        <small style="text-align:left; font-weight:600;">Skills Developed: Machine Learning Expertise,
+          Advanced Data Analysis,
+          Research Capabilities,
+          Technical Writing,
+          Problem-solving in Machine Learning</small>
+        <p>During this phase, Shrirang undertook a research internship at Genik Research Institute, delving into the
+          realms of Machine Learning. His work resulted in a published research paper, showcasing his burgeoning expertise
+          in Machine Learning algorithms and research capabilities.
+        </p>
+        <a href="https://arxiv.org/ftp/arxiv/papers/2111/2111.04003.pdf" class="icon-link">
+          <fa :icon="['fas', 'book']" class="globe" />
+          <span class="icon-text">First ML Research Paper</span>
+        </a>
+        <a href="https://drive.google.com/file/d/1TqwY9Y_OqBjBdNBd6M3Okyw-lyV4S4Ks/view?usp=sharing" class="icon-link">
+          <fa :icon="['far', 'file']" class="file"></fa>
+          <span class="icon-text">Certificate</span>
+        </a>
+        <a href="#" class="icon-link">
+          <fa :icon="['fab', 'github']" class="github-link"></fa>
+          <span class="icon-text">Notebook coming soon!</span>
+        </a>
+        <span class="left-container-arrow"></span>
+      </div>
+    </div>
+
+    <div class="container right-container">
+      <img src="../assets/logo.png">
+      <div class="text-box">
+        <h2>Data Science Application at Hiclousia Recruitment, IIT Madras Research Park.</h2>
+        <small>May 2022 - November 2022</small>
+        <small style="text-align:left; font-weight:600;">Skills Developed: Product Development,
+          Pitching Abilities,
+          Practical Data Science,
+          Startup Understanding,
+          Collaborative Problem-solving</small>
+        <p>Juggling academic pursuits, Shrirang dived deeper into Machine Learning and Data Science through an immersive
+          internship at Hiclousia Recruitment—a startup situated at the IIT Madras Research Park. This experience enriched
+          his understanding of product development intricacies and honed his ability to craft compelling pitches,
+          broadening his practical skill set in the applications of Data Science.
+        </p>
+        <span class="right-container-arrow"></span>
+      </div>
+    </div>
+
+    <div class="container left-container">
+      <img src="../assets/logo.png">
+      <div class="text-box">
+        <h2>Cultural Leadership and Society Formation - AKORD </h2>
+        <small>July 2022 - Present</small>
+        <small style="text-align:left; font-weight:600;">Skills Developed: Leadership,
+          Event Management,
+          Team Management,
+          Communication,
+          Influence in Cultural Activities</small>
+        <p>Running parallel to his academic journey, Shrirang actively shaped IIT Madras' cultural fabric. He pioneered
+          the establishment of the first society within the BS degree program (AKORD IITM BS Society), introducing a
+          vibrant cultural element.
+          Managing major cultural events showcased his adeptness in team management and event coordination.
+        </p>
+        <!-- <a href="https://drive.google.com/file/d/14PdwIUGWy-faMgPiJVdP5MNsw0nluzqJ/view?usp=sharing" class="icon-link">
+          <fa :icon="['far', 'file']" class="file"></fa>
+          <span class="icon-text">Certificate</span>
+        </a>
+        <a href="https://youtu.be/K-UkKcH79YI" class="icon-link">
+          <fa :icon="['fab', 'youtube']" class="youtube-link"></fa>
+          <span class="icon-text">Shrirang's Speech as Cultural Core</span>
+        </a> -->
+        <span class="left-container-arrow"></span>
+      </div>
+    </div>
+
+    <div class="container right-container">
+      <img src="../assets/logo.png">
+      <div class="text-box">
+        <h2> Cultural Core, Paradox: Transformative Event Management & Leadership Unveiling</h2>
+        <small>January 2023 - July 2023</small>
+        <small style="text-align:left; font-weight:600;">Skills Developed: Strategic Development,
+          Crisis Management,
+          Delegation Skills,
+          Community Engagement,
+          Organizational Efficiency</small>
+        <p>Overseeing a team of over 1100 individuals in annual fest, Paradox. Shrirang managed a mammoth-scale operation,
+          Approximately 30% or more of the events were under his guidance and supervision. This showcased strategic
+          skills, elevating him as a popular influential figure, profoundly impacting the student community.<br>
+
+          <!-- Managing large-scale events unearthed Shrirang's unique leadership. It sparked impactful mentorship, fostering
+          community, shaping a sustained, influential leadership journey. -->
+        </p>
+        <a href="https://drive.google.com/file/d/14PdwIUGWy-faMgPiJVdP5MNsw0nluzqJ/view?usp=sharing" class="icon-link">
+          <fa :icon="['far', 'file']" class="file"></fa>
+          <span class="icon-text">Certificate</span>
+        </a>
+        <a href="https://youtu.be/K-UkKcH79YI" class="icon-link">
+          <fa :icon="['fab', 'youtube']" class="youtube-link"></fa>
+          <span class="icon-text">Shrirang's Speech as Cultural Core</span>
+        </a>
+        <span class="right-container-arrow"></span>
+      </div>
+    </div>
+
+    <!-- <div class="container left-container">
+      <img src="../assets/logo.png">
+      <div class="text-box">
+        <h2> Leadership Discovery and Impact</h2>
         <small>2021 - Today</small>
-        <p>Shrirang completed Engineering in Electronics and Telecommunication. Began with an engineering stint in
-          Electronics and Telecommunication before immersing myself in the captivating world of Astrophysics.
-          Collaborating with the prestigious NASA Space Museum, I delved into thrilling research projects involving
-          Rocketry design and Radio Astronomy over three impactful years.</p>
+        <p>Shrirang's journey culminated in the discovery of his distinctive leadership style. He spearheaded significant
+          cultural initiatives, demonstrating visionary leadership qualities. His influence extended beyond event
+          management, fostering a vibrant and thriving community within the IIT Madras ecosystem.<br><br>
+
+          Each phase represents a crucial milestone in Shrirang's journey, encapsulating his growth, skill development,
+          and the diverse experiences that shaped his multifaceted persona.
+        </p>
+        <span class="left-container-arrow"></span>
+      </div>
+    </div> -->
+    <!-- <div class="container left-container">
+      <img src="../assets/logo.png">
+      <div class="text-box">
+        <h2> Leadership Discovery and Impact</h2>
+        <small>2021 - Today</small>
+        <small style="text-align:left; font-weight:600;">Skills Developed: Visionary Leadership,
+          Community Building,
+          Influence and Impact,
+          Mentorship,
+          Sustained Leadership</small>
+        <p>Shrirang's journey culminated in the discovery of his distinctive leadership style. He spearheaded significant
+          cultural initiatives, demonstrating visionary leadership qualities. His influence extended beyond event
+          management, fostering a vibrant and thriving community within the IIT Madras ecosystem.<br><br>
+        </p>
+        <span class="left-container-arrow"></span>
+      </div>
+    </div> -->
+
+    <div class="container left-container">
+      <img src="../assets/logo.png">
+      <div class="text-box">
+        <!-- <h2> Leadership Discovery and Impact</h2> -->
+        <!-- <small>2021 - Today</small> -->
+        <p>
+          Each phase represents a crucial milestone in Shrirang's journey, encapsulating his growth, skill development,
+          and the diverse experiences that shaped his multifaceted persona.
+        </p>
+        <router-link to="/stats">Witness Shrirang's analytical progress.
+          <fa :icon="['fas', 'chart-simple']" class="news"></fa>
+          <span class="icon-text">Shrirang's Analytics</span>
+        </router-link>
         <span class="left-container-arrow"></span>
       </div>
     </div>
 
-  </div>
+  </div><br>
 
+  <!-- <p>Each phase represents a crucial milestone in Shrirang's journey, encapsulating his growth, skill development,
+    and the diverse experiences that shaped his multifaceted persona.</p> -->
 
   <!-- <div class="title-timeline">
     <h2>Shrirang's Project</h2>
@@ -267,6 +473,60 @@ export default {
 </script>
 
 <style scoped>
+.globe {
+  font-size: 26px;
+  color: #4285f4;
+  margin-left: 10px;
+}
+
+.file,
+.news {
+  font-size: 26px;
+  /* Adjust size for consistency */
+  margin-left: 20px;
+  /* Add color or any other styles for file and news icons */
+}
+
+.youtube-link {
+  font-size: 26px;
+  /* Adjust size for consistency */
+  margin-left: 20px;
+  /* Add color or any other styles for file and news icons */
+  color: #ea4335
+}
+
+.github-link {
+  font-size: 26px;
+  /* Adjust size for consistency */
+  margin-left: 20px;
+  /* Add color or any other styles for file and news icons */
+  color: #000000
+}
+
+.icon-text {
+  display: none;
+  /* Hide text by default */
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.icon-link {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-link:hover .icon-text {
+  display: block;
+  /* Show text on hover */
+  width: 100px;
+  margin-top: 12px;
+}
+
+
 .python {
   width: 20rem;
   padding: 1rem;
@@ -477,12 +737,13 @@ export default {
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
-  margin-left: 32.5%;
+  margin-left: 33%;
   width: 40rem;
   border: 1px solid #6d6d6d;
   border-radius: 18px;
   padding: 10px;
   box-shadow: 0 5px 30px -7px rgba(0, 0, 0, 0.5);
+  color: grey;
 }
 
 .timeline {
@@ -534,22 +795,47 @@ export default {
 
 .timeline.start-animation .container:nth-child(2) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 4.5s;
+  animation-delay: 2s;
 }
 
 .timeline.start-animation .container:nth-child(3) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 8.3s;
+  animation-delay: 3.9s;
 }
 
 .timeline.start-animation .container:nth-child(4) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 12.5s;
+  animation-delay: 6.3s;
 }
 
 .timeline.start-animation .container:nth-child(5) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 16.4s;
+  animation-delay: 8.5s;
+}
+
+.timeline.start-animation .container:nth-child(6) {
+  animation: movedown 1.5s ease-in-out forwards;
+  animation-delay: 10.5s;
+}
+
+.timeline.start-animation .container:nth-child(7) {
+  animation: movedown 1.5s ease-in-out forwards;
+  animation-delay: 13s;
+}
+
+.timeline.start-animation .container:nth-child(8) {
+  animation: movedown 1.5s ease-in-out forwards;
+  animation-delay: 15.9s;
+}
+
+.timeline.start-animation .container:nth-child(9) {
+  animation: movedown 1.5s ease-in-out forwards;
+  animation-delay: 17.4s;
+}
+
+.timeline.start-animation .container:nth-child(10) {
+  animation: movedown 1.5s ease-in-out forwards;
+  animation-delay: 19s;
 }
 
 /*All About text box*/
