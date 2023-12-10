@@ -59,20 +59,23 @@
         </div>
     </div>
 
-    <div class="border"></div>
+    <div class="section1">
+        <div class="border"></div>
 
-    <div class="result">
-        <!-- <h2>Indian Institute of Technology, Madras, and</h2>
+        <div class="result">
+            <!-- <h2>Indian Institute of Technology, Madras, and</h2>
         <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2> -->
-        <small>Shrirang started with Engineering but got intrigued by Data Science during a project on Radio Astronomy,
-            where he saw how Astrophysics and Data Science connect through analyzing space data. This sparked his interest
-            in using data for scientific exploration. Wanting to dive deeper into Data Science's power, he decided on a
-            double Bachelor's, showing a strong preference for Data Science and its ongoing
-            advancements.</small>
-    </div>
-    
+            <small>Shrirang started with Engineering but got intrigued by Data Science during a project on Radio Astronomy,
+                where he saw how Astrophysics and Data Science connect through analyzing space data. This sparked his
+                interest
+                in using data for scientific exploration. Wanting to dive deeper into Data Science's power, he decided on a
+                double Bachelor's, showing a strong preference for Data Science and its ongoing
+                advancements.</small>
+        </div>
 
-    <div class="border"></div>
+
+        <div class="border"></div>
+    </div>
 
     <div class="content">
         <router-link to="/shrirang-sapate" class="heading1">Know Shrirang Sapate</router-link>
@@ -245,15 +248,81 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width:768px) {
+    
+    .result {
+        margin-left: 10%;
+        /* margin-right: 65rem; */
+        margin-top: 0rem;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: #202124;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        max-width: 35rem !important;
+        position: relative;
+        top: -3rem;
+    }
+}
+
+@media (max-width:425px) {
+    
+    .result {
+        margin-left: 10%;
+        /* margin-right: 65rem; */
+        margin-top: 0rem;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: #202124;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        max-width: 21rem !important;
+        position: relative;
+        top: -3rem;
+    
+    }
+}
+@media (min-width:320px) and (max-width:424px) {
+    
+    .result {
+        margin-left: 10%;
+        /* margin-right: 65rem; */
+        margin-top: 0rem;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: #202124;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        max-width: 19rem !important;
+        position: relative;
+        top: -3rem;
+    
+    }
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    
+}
 .result {
     margin-left: 12%;
-    margin-right: 65rem;
+    /*margin-right: 65rem;*/
     margin-top: 1rem;
     font-size: 20px;
     font-weight: 500;
     font-family: sans-serif;
     color: #202124;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
 }
 
 .result h2 {
