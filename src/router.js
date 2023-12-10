@@ -24,11 +24,7 @@ const routes = [
         component: AboutPage,
         path: '/'
     },
-    // {
-    //     name:'Question',
-    //     component: QuestionPage,
-    //     path: '/about/:id'
-    // },
+    
     {
         name:'Stats',
         component:StatsPage,
