@@ -82,7 +82,6 @@ export default {
                 'Does Shrirang have any work experience?': 'My name is  Shrirang',
                 'Does Shrirang have Googliness': 'I am from India',
             },
-            
             isBoxActive: false,
             isButtonActive: false,
             questionData:null,
