@@ -29,7 +29,7 @@
 
         <div class="nav-header">
             <a href="mailto:official.shriraang@gmail.com" class="mail-header">Gmail</a>
-            <router-link to="#" class="images-header">Images</router-link>
+            <a class="images-header">Images </a>      
             <img alt="flask-logo" src="../assets/flask-outline.svg" class="flask-header">
             <i class="fa fa-th" aria-hidden="true"></i>
             <i class="fa-sharp fa-solid fa-braille"></i>
