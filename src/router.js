@@ -4,7 +4,7 @@ import AboutPage from './components/About.vue'
 import StatsPage from './components/Stats.vue'
 import AnswerPageOne from './components/AnswerPageOne.vue'
 import AnswerPageTwo from './components/AnswerPageTwo.vue'
-// import AnswerPageThree from './components/AnswerPageThree.vue'
+import AnswerPageThree from './components/AnswerPageThree.vue'
 // import AnswerPageFour from './components/AnswerPageFour.vue'
 // import AnswerPageFive from './components/AnswerPageFive.vue'
 // import AnswerPageSix from './components/AnswerPageSix.vue'
@@ -40,11 +40,11 @@ const routes = [
         component:AnswerPageTwo,
         path: '/2'
     },
-    // {
-    //     name:'Answer3',
-    //     component:AnswerPageThree,
-    //     path: '/3'
-    // },
+    {
+        name:'Answer3',
+        component:AnswerPageThree,
+        path: '/3'
+    },
     // {
     //     name:'Answer4',
     //     component:AnswerPageFour,

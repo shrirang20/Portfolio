@@ -33,7 +33,7 @@
                         <!-- @click="selectQuestion(question) -->
                         <div class="roow">
                             <div class="cell-1">
-                                <fa :icon="['fas', 'clock']" class="clock-icon"></fa>
+                                <fa :icon="['far', 'clock']" class="clock-icon"></fa>
                             </div>
                             <div class="cell-2">
                                 <span class="question">{{ question }}</span>
