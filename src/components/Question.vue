@@ -29,7 +29,7 @@
 
         <div class="nav-header">
             <a href="mailto:official.shriraang@gmail.com" class="mail-header">Gmail</a>
-            <router-link to="/about" class="images-header">Images</router-link>
+            <router-link to="#" class="images-header">Images</router-link>
             <img alt="flask-logo" src="../assets/flask-outline.svg" class="flask-header">
             <i class="fa fa-th" aria-hidden="true"></i>
             <i class="fa-sharp fa-solid fa-braille"></i>
@@ -58,7 +58,7 @@
         
         <!-- <div v-html="questionData.answer2" class="sub-heading"></div>
         <div v-html="questionData.answer3" class="content"></div>
-        <router-link to="/about" v-html="questionData.answer1" class="content"></router-link> -->
+        <router-link to="#" v-html="questionData.answer1" class="content"></router-link> -->
     <!-- </div> -->
     <div>
         <h1>Hello Guys</h1>

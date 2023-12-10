@@ -79,7 +79,7 @@ export default {
                 'Why is Shrirang doing double bachleor\'s': 'My name is  Shrirang',
                 'What are Shrirang\'s educational stats': 'I am from India',
                 'What all projects Shrirang have completed?': 'My name is  Shrirang',
-                'Do Shrirang have any project in Data Science?': 'My name is  Shrirang',
+                // 'Do Shrirang have any project in Data Science?': 'My name is  Shrirang',
                 'Does Shrirang have any work experience?': 'My name is  Shrirang',
                 'Does Shrirang have Googliness': 'I am from India',
             },

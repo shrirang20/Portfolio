@@ -12,12 +12,10 @@
                 <span style="color:transparent;" data-v-c226fde6="">.</span>
                 <span style="color:#4285f4;" data-v-c226fde6="">M</span>
                 <span style="color:#ea4335;" data-v-c226fde6="">e</span>
-
             </div>
 
-            <div class="dropdown-header">
-
-                <input type="text" class='box-header' autocomplete="off" value="Who is Shrirang Sapate?" />
+            <div class="dropdown-header">   
+                <input type="text" class='box-header' autocomplete="off" value="What are Shrirang's educational stats" />
                 <!-- <label for="search" class="search-header">⌕</label> -->
                 <div class="icons">
                     <div class="seprator"> | </div>
@@ -62,69 +60,46 @@
     </div>
 
     <div class="border"></div>
-    <div class="subheader">
-        <div class="name">
-            <div class='heading'>Shrirang Sapate</div>
 
-            <div class='sub-heading'>Student at IIT Madras <fa icon='ellipsis-vertical' class="icons-subheader"></fa>
-            </div>
+    <div class="result">
+        <!-- <h2>Indian Institute of Technology, Madras, and</h2>
+        <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2> -->
+        <small>Shrirang holds a Bachelor's in <b class="highlight">Engineering (Electronics & Telecommunication)</b>  with a <b class="highlight">CGPA of 6.39.</b> Currently
+            pursuing a Bachelor's of Science <b class="highlight">(Data Science)</b> at
+            IIT Madras, he maintains a commendable <b class="highlight">CGPA of 7.4.</b> Noteworthy is his exceptional performance as a subject
+            <b class="highlight">topper in Statistics, Business Data Management, Business Analytics, Tools in Data Science, and System Commands.</b>
+            Within the Data Science curriculum out of six subject, he excelled as the topper in three subjects: Business Data Management,
+            Business Analytics, and Tools in Data Science.</small>
+    </div>
+    
+    <div class="content">
+        <router-link to="/stats" class="heading1">Know Shrirang's Analytical insights</router-link>
+        <!-- <div class="heading1">Know about Shrirang</div> -->
+        <div class="slug">
+            <router-link to="/stats">https://shrirang-sapate-analytics.com <fa icon='ellipsis-vertical'
+                    class="icons-subheader"></fa></router-link>
+            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
         </div>
-        <div class="side-tabs">
-            <div class="overview">Overview</div>
-            <router-link to="/stats" class="Stats">Stats</router-link>
-            <a href="https://www.youtube.com/@shrirangsapate" class="Videos">Videos</a>
-            <!-- <div class="Videos">Videos</div> -->
-        </div>
+        <div class="context">Shrirang's analytics journey at IIT Madras showcased growth across nine pivotal phases. From
+            engineering fundamentals to cultural leadership, he honed technical proficiency, research methodology, and
+            visionary leadership, impacting peers and fostering community engagement.</div>
     </div>
 
-    <div class="photo">
-        <div class="image-container">
-            <img alt="Shriraang" class="photo1" src="../assets/Stage2.png">
-        </div>
-        <div class="column-2">
-            <div class="image-container-2">
-                <img alt="Speech" class="photo2" src="../assets/Speech.png">
-            </div>
-            <div class="image-container-3">
-                <img alt="Diploma" class="photo3" src="../assets/Diploma.png">
-            </div>
-
-        </div>
-        <!-- <div class="image-container-5">
-            <img alt="Shrirang-Stage" class="photo5" src="../assets/1.png">
-        </div> -->
-        <div class="card2">
-            <div class="image-container-4">
-                <img alt="Diploma" class="photo4" src="../assets/Shrirang-Sapate.png">
-            </div>
-            <div class="context-card">Meet Shrirang, a Data Science student at IIT Madras. From probing the depths of
-                Astrophysics alongside NASA for a year, he's now charting the frontiers of Data Science.Not just crunching
-                numbers; he's published a ML papers and ignited campus culture with his vibrant event leadership.</div>
-        </div>
-
-        <div class="data">
-            <div class="row1">
-                <div class="cards">
-                    <div class="age">Location</div>
-                    <div class="age-value">Nagpur</div>
-                </div>
-                <div class="cards">
-                    <div class="age">Birthdate</div>
-                    <div class="age-value">20thSept</div>
-                </div>
-            </div>
-            <div class="row2">
-                <div class="cards-video">
-                    <iframe class="video" src="https://www.youtube.com/embed/mXXXjrfZsEM?si=Ni3LOnGUTyEoHjuc"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-    </div>
     <div class="border"></div>
+
+    <div class="content">
+        <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870" class="heading1">Shrirang Sapate - IIT Madras </a>
+        <!-- <div class="heading1">Know about Shrirang</div> -->
+        <div class="slug">
+            <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870">https://app.onlinedegree.iitm.ac.in/student/21F1002870
+                <fa icon='ellipsis-vertical' class="icons-subheader"></fa>
+            </a>
+            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+        </div>
+        <div class="context">Shrirang Sapate is a curious and dedicated individual with a strong academic background in Data
+            Science. He enjoys listening & composing music, and believes in the importance of maintaining a healthy
+            work-life balance..</div>
+    </div>
 
     <div class="content">
         <router-link to="/shrirang-sapate" class="heading1">Know Shrirang Sapate</router-link>
@@ -140,18 +115,7 @@
             culture with his vibrant event leadership.</div>
     </div>
 
-    <div class="content">
-        <router-link to="/stats" class="heading1">Know Shrirang's Analytical insights</router-link>
-        <!-- <div class="heading1">Know about Shrirang</div> -->
-        <div class="slug">
-            <router-link to="/stats">https://shrirang-sapate-analytics.com <fa icon='ellipsis-vertical'
-                    class="icons-subheader"></fa></router-link>
-            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
-        </div>
-        <div class="context">Shrirang's analytics journey at IIT Madras showcased growth across nine pivotal phases. From
-            engineering fundamentals to cultural leadership, he honed technical proficiency, research methodology, and
-            visionary leadership, impacting peers and fostering community engagement.</div>
-    </div>
+    
 
     <div class="content">
         <a href="https://in.linkedin.com/in/shriraangsapaate" class="heading1">Shriraang Sapate</a>
@@ -235,20 +199,8 @@
         </div>
     </div>
 
-    <div class="content">
-        <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870" class="heading1">Shrirang Sapate - IIT Madras </a>
-        <!-- <div class="heading1">Know about Shrirang</div> -->
-        <div class="slug">
-            <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870">https://app.onlinedegree.iitm.ac.in/student/21F1002870
-                <fa icon='ellipsis-vertical' class="icons-subheader"></fa>
-            </a>
-            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
-        </div>
-        <div class="context">Shrirang Sapate is a curious and dedicated individual with a strong academic background in Data
-            Science. He enjoys listening & composing music, and believes in the importance of maintaining a healthy
-            work-life balance..</div>
-    </div>
     
+
     <div class="content">
         <a href="https://study.iitm.ac.in/ds/" class="heading1">IIT Madras Degree Program in Data Science and ...</a>
         <div class="slug">
@@ -292,11 +244,35 @@
 
 <script>
 export default {
-    name: 'AnswerPageOne',
+    name: 'AnswerPageFour',
 }
 </script>
 
 <style scoped>
+
+.highlight {
+    background-color: #E5EDFF;
+    padding: 3px;
+}
+
+.result {
+    margin-left: 12%;
+    margin-right: 65rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #202124;
+    text-align: justify;
+}
+
+.result h2 {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+
+
 .content {
     display: flex;
     flex-direction: column;
@@ -1024,7 +1000,6 @@ export default {
         margin-left: 0.5rem;
     }
 
-    
 }
 
 @media (min-width:376px) and (max-width:425px) {

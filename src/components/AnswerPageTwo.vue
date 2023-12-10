@@ -29,7 +29,7 @@
 
         <div class="nav-header">
             <a href="mailto:official.shriraang@gmail.com" class="mail-header">Gmail</a>
-            <router-link to="/about" class="images-header">Images</router-link>
+            <router-link to="#" class="images-header">Images</router-link>
             <img alt="flask-logo" src="../assets/flask-outline.svg" class="flask-header">
             <i class="fa fa-th" aria-hidden="true"></i>
             <i class="fa-sharp fa-solid fa-braille"></i>
@@ -66,9 +66,9 @@
     <div class="result">
         <h2>Indian Institute of Technology, Madras, and</h2>
         <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2>
-        <small>Shrirang did his Bachelor's of Engineering (B.E) from Rashtrasant Tukadoji Maharaj University (RTMNU) in 2017,
-            he is currently doing Bachelor's of Science (BS) in Data Science and Application from Indian Institute of
-            Technology, Madras (IITM)</small>
+        <small>Shrirang did his <b class="highlight">Bachelor's of Engineering (B.E) from Rashtrasant Tukadoji Maharaj University (RTMNU)</b> in 2017,
+            he is currently doing <b class="highlight">Bachelor's of Science (BS) in Data Science and Application from Indian Institute of
+            Technology, Madras (IITM)</b></small>
     </div>
     <div class="content">
         <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870" class="heading1">Shrirang Sapate - IIT Madras </a>
@@ -243,6 +243,11 @@ export default {
 </script>
 
 <style scoped>
+
+.highlight {
+    background-color: #E5EDFF;
+    padding: 3px;;
+}
 .result {
     margin-left: 12%;
     margin-right: 65rem;
@@ -251,7 +256,7 @@ export default {
     font-weight: 500;
     font-family: sans-serif;
     color: #202124;
-    text-align: left;
+    text-align: justify;
 }
 
 .result h2 {
@@ -259,10 +264,10 @@ export default {
     font-family: sans-serif;
 }
 
-.result small {
+/*.result small {
     background-color: #E5EDFF;
     padding: 3px;
-}
+}*/
 
 .content {
     display: flex;

@@ -110,11 +110,11 @@
     </div>
   </div>
 
-  <div class="title-timeline">
+  <div class="title-timeline" id="timeline" ref="timelineSection">
     <h2>Let's devel deep into Shrirang's Journey</h2>
   </div>
 
-  <div class="timeline">
+  <div  class="timeline" >
     <div class="container left-container">
       <img src="../assets/logo.png">
       <div class="text-box">
@@ -251,7 +251,7 @@
           <span class="icon-text">Certificate</span>
         </a>
         <a href="#" class="icon-link">
-          <fa :icon="['fab', 'github']" class="github-link"></fa>
+          <fa :icon="['fab', 'github']" class="github-link"></fa> 
           <span class="icon-text">Notebook coming soon!</span>
         </a>
         <span class="left-container-arrow"></span>
@@ -292,6 +292,10 @@
           vibrant cultural element.
           Managing major cultural events showcased his adeptness in team management and event coordination.
         </p>
+        <a href="https://www.canva.com/design/DAFa8zSyj9U/q33irVAFBRTNjED4q38Z4g/edit?utm_content=DAFa8zSyj9U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="icon-link">
+          <fa :icon="['far', 'file-powerpoint']" class="file"></fa>
+          <span class="icon-text">All about AKORD</span>
+        </a>
         <!-- <a href="https://drive.google.com/file/d/14PdwIUGWy-faMgPiJVdP5MNsw0nluzqJ/view?usp=sharing" class="icon-link">
           <fa :icon="['far', 'file']" class="file"></fa>
           <span class="icon-text">Certificate</span>
@@ -443,6 +447,11 @@ export default {
     }, LineAnimationDuration + 1000);
 
     window.addEventListener('scroll', this.handleScroll);
+
+    const { section } = this.$route.params;
+    if (section === 'timeline') {
+      this.scrollToTimeline();
+    }
   },
 
   beforeUnmount() {
@@ -450,6 +459,13 @@ export default {
   },
 
   methods: {
+
+    scrollToTimeline() {
+      const timelineSection = this.$refs.timelineSection;
+      if (timelineSection) {
+        timelineSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    },
     showImageTitle(title) {
       this.activeImageTitle = title;
     },
@@ -795,47 +811,42 @@ export default {
 
 .timeline.start-animation .container:nth-child(2) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 2s;
+  animation-delay: 1.9s;
 }
 
 .timeline.start-animation .container:nth-child(3) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 3.9s;
+  animation-delay: 4.2s;
 }
 
 .timeline.start-animation .container:nth-child(4) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 6.3s;
+  animation-delay: 6.8s;
 }
 
 .timeline.start-animation .container:nth-child(5) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 8.5s;
+  animation-delay: 9s;
 }
 
 .timeline.start-animation .container:nth-child(6) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 10.5s;
+  animation-delay: 11.5s;
 }
 
 .timeline.start-animation .container:nth-child(7) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 13s;
+  animation-delay: 14.1s;
 }
 
 .timeline.start-animation .container:nth-child(8) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 15.9s;
+  animation-delay: 16.3s;
 }
 
 .timeline.start-animation .container:nth-child(9) {
   animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 17.4s;
-}
-
-.timeline.start-animation .container:nth-child(10) {
-  animation: movedown 1.5s ease-in-out forwards;
-  animation-delay: 19s;
+  animation-delay: 18.8s;
 }
 
 /*All About text box*/

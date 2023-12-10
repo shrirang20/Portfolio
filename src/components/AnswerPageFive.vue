@@ -12,12 +12,11 @@
                 <span style="color:transparent;" data-v-c226fde6="">.</span>
                 <span style="color:#4285f4;" data-v-c226fde6="">M</span>
                 <span style="color:#ea4335;" data-v-c226fde6="">e</span>
-
             </div>
 
             <div class="dropdown-header">
-
-                <input type="text" class='box-header' autocomplete="off" value="Who is Shrirang Sapate?" />
+                <input type="text" class='box-header' autocomplete="off"
+                    value="What all projects Shrirang have completed?" />
                 <!-- <label for="search" class="search-header">⌕</label> -->
                 <div class="icons">
                     <div class="seprator"> | </div>
@@ -62,75 +61,58 @@
     </div>
 
     <div class="border"></div>
-    <div class="subheader">
-        <div class="name">
-            <div class='heading'>Shrirang Sapate</div>
 
-            <div class='sub-heading'>Student at IIT Madras <fa icon='ellipsis-vertical' class="icons-subheader"></fa>
-            </div>
-        </div>
-        <div class="side-tabs">
-            <div class="overview">Overview</div>
-            <router-link to="/stats" class="Stats">Stats</router-link>
-            <a href="https://www.youtube.com/@shrirangsapate" class="Videos">Videos</a>
-            <!-- <div class="Videos">Videos</div> -->
-        </div>
-    </div>
+    <div class="result">
+        <!-- <h2>Indian Institute of Technology, Madras, and</h2>
+        <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2> -->
+        <!-- <small>Shrirang did his Bachelor's of Engineering (B.E) from Rashtrasant Tukadoji Maharaj University (RTMNU) in 2017,
+            he is currently doing Bachelor's of Science (BS) in Data Science and Application from Indian Institute of
+            Technology, Madras (IITM)</small> -->
 
-    <div class="photo">
-        <div class="image-container">
-            <img alt="Shriraang" class="photo1" src="../assets/Stage2.png">
-        </div>
-        <div class="column-2">
-            <div class="image-container-2">
-                <img alt="Speech" class="photo2" src="../assets/Speech.png">
-            </div>
-            <div class="image-container-3">
-                <img alt="Diploma" class="photo3" src="../assets/Diploma.png">
-            </div>
+        <h5>Data Science:</h5>
+        <li><b>Research Paper - Machine Learning</b></li>
+        <p><b>Title:</b> Predictive Model for Gross Community Production Rate of Coral Reefs Using Ensemble Learning
+            Methodologies.</p>
+        <p><b>Description:</b> Developed a predictive model using Ensemble Learning and machine learning algorithms to
+            analyze
+            coral reef production. This research highlights the pivotal role of data science in ecological preservation.</p>
 
-        </div>
-        <!-- <div class="image-container-5">
-            <img alt="Shrirang-Stage" class="photo5" src="../assets/1.png">
-        </div> -->
-        <div class="card2">
-            <div class="image-container-4">
-                <img alt="Diploma" class="photo4" src="../assets/Shrirang-Sapate.png">
-            </div>
-            <div class="context-card">Meet Shrirang, a Data Science student at IIT Madras. From probing the depths of
-                Astrophysics alongside NASA for a year, he's now charting the frontiers of Data Science.Not just crunching
-                numbers; he's published a ML papers and ignited campus culture with his vibrant event leadership.</div>
-        </div>
 
-        <div class="data">
-            <div class="row1">
-                <div class="cards">
-                    <div class="age">Location</div>
-                    <div class="age-value">Nagpur</div>
-                </div>
-                <div class="cards">
-                    <div class="age">Birthdate</div>
-                    <div class="age-value">20thSept</div>
-                </div>
-            </div>
-            <div class="row2">
-                <div class="cards-video">
-                    <iframe class="video" src="https://www.youtube.com/embed/mXXXjrfZsEM?si=Ni3LOnGUTyEoHjuc"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
+        <li><b>Grocery Store Management Application</b></li>
+        <p><b>Description:</b> Developed a multi-user application with admin features, product management, and a
+            user-friendly
+            shopping cart. Emphasized UI design and user authentication. Skills in Python, Flask, UI/UX, and e-commerce
+            functionality.</p>
+
+        <li><b>Ticket Book Web App</b></li>
+        <p><b>Description:</b> Created a versatile Ticket Booking Platform with user authentication, role-based access, show
+            management, and advanced search. Utilized Flask API, VueJS UI, and Celery for backend jobs.</p>
+
+
+        <li><b>Power BI Dashboard</b></li>
+        <p><b>Description:</b> Crafted an interactive dashboard for the Cultural segment of IIT Madras' Annual fest (Paradox
+            23).
+            Presented comprehensive insights and reports.</p><br>
+
+
+        <h5>Astrophysics:</h5>
+        <li><b>Research Paper</b></li>
+        <p><b>Title:</b> Comparative Study on Designs of Air Propelled Rocket for Achieving Higher Altitude.
+            <b>Description:</b> Explored rocket designs for higher altitudes, contributing to advancements in aerospace
+            studies.
+        </p>
+
+        <li><b>Radio Telescope Projects</b></li>
+        <p><b>Description:</b> Constructed telescopes for studying the Chromosphere of the Sun and detecting Hydrogen and OH
+            from
+            the Sagittarius arm of the Milky Way galaxy. Contributed to astronomical research.</p>
 
     </div>
-    <div class="border"></div>
-
     <div class="content">
-        <router-link to="/shrirang-sapate" class="heading1">Know Shrirang Sapate</router-link>
+        <router-link to="/shrirang-sapate/timeline" class="heading1">Know Shrirang Sapate</router-link>
         <!-- <div class="heading1">Know about Shrirang</div> -->
         <div class="slug">
-            <router-link to="/shrirang-sapate">https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical'
+            <router-link to="/shrirang-sapate#timeline">https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical'
                     class="icons-subheader"></fa></router-link>
             <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
         </div>
@@ -140,29 +122,8 @@
             culture with his vibrant event leadership.</div>
     </div>
 
-    <div class="content">
-        <router-link to="/stats" class="heading1">Know Shrirang's Analytical insights</router-link>
-        <!-- <div class="heading1">Know about Shrirang</div> -->
-        <div class="slug">
-            <router-link to="/stats">https://shrirang-sapate-analytics.com <fa icon='ellipsis-vertical'
-                    class="icons-subheader"></fa></router-link>
-            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
-        </div>
-        <div class="context">Shrirang's analytics journey at IIT Madras showcased growth across nine pivotal phases. From
-            engineering fundamentals to cultural leadership, he honed technical proficiency, research methodology, and
-            visionary leadership, impacting peers and fostering community engagement.</div>
-    </div>
 
-    <div class="content">
-        <a href="https://in.linkedin.com/in/shriraangsapaate" class="heading1">Shriraang Sapate</a>
-        <div class="slug">
-            <a href="https://in.linkedin.com/in/shriraangsapaate">https://in.linkedin.com/in/shriraangsapaate <fa
-                    icon='ellipsis-vertical' class="icons-subheader"></fa></a>
-        </div>
-        <div class="context">Chennai, Tamil Nadu, India · Akord Music Society<br>
-            I am a motivated Data Analyst with expertise in data science and application. I possess a strong background in
-            developing machine learning models and ...</div>
-    </div>
+    <div class="border"></div>
 
     <div class="content">
         <a href="https://arxiv.org/abs/2111.04003" class="heading1">Predictive Model for Gross Community Production Rate of
@@ -200,6 +161,46 @@
     </div>
 
     <div class="content">
+        <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870" class="heading1">Shrirang Sapate - IIT Madras </a>
+        <!-- <div class="heading1">Know about Shrirang</div> -->
+        <div class="slug">
+            <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870">https://app.onlinedegree.iitm.ac.in/student/21F1002870
+                <fa icon='ellipsis-vertical' class="icons-subheader"></fa>
+            </a>
+            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+        </div>
+        <div class="context">Shrirang Sapate is a curious and dedicated individual with a strong academic background in Data
+            Science. He enjoys listening & composing music, and believes in the importance of maintaining a healthy
+            work-life balance..</div>
+    </div>
+
+    <div class="content">
+        <router-link to="/stats" class="heading1">Know Shrirang's Analytical insights</router-link>
+        <!-- <div class="heading1">Know about Shrirang</div> -->
+        <div class="slug">
+            <router-link to="/stats">https://shrirang-sapate-analytics.com <fa icon='ellipsis-vertical'
+                    class="icons-subheader"></fa></router-link>
+            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+        </div>
+        <div class="context">Shrirang's analytics journey at IIT Madras showcased growth across nine pivotal phases. From
+            engineering fundamentals to cultural leadership, he honed technical proficiency, research methodology, and
+            visionary leadership, impacting peers and fostering community engagement.</div>
+    </div>
+
+    <div class="content">
+        <a href="https://in.linkedin.com/in/shriraangsapaate" class="heading1">Shriraang Sapate</a>
+        <div class="slug">
+            <a href="https://in.linkedin.com/in/shriraangsapaate">https://in.linkedin.com/in/shriraangsapaate <fa
+                    icon='ellipsis-vertical' class="icons-subheader"></fa></a>
+        </div>
+        <div class="context">Chennai, Tamil Nadu, India · Akord Music Society<br>
+            I am a motivated Data Analyst with expertise in data science and application. I possess a strong background in
+            developing machine learning models and ...</div>
+    </div>
+
+
+
+    <div class="content">
         <a href="https://www.instagram.com/_shriraang_/" class="heading1">Shriraang Sapaate(@_shriraang_) • Instagram photos
             and...</a>
         <div class="slug">
@@ -235,20 +236,6 @@
         </div>
     </div>
 
-    <div class="content">
-        <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870" class="heading1">Shrirang Sapate - IIT Madras </a>
-        <!-- <div class="heading1">Know about Shrirang</div> -->
-        <div class="slug">
-            <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870">https://app.onlinedegree.iitm.ac.in/student/21F1002870
-                <fa icon='ellipsis-vertical' class="icons-subheader"></fa>
-            </a>
-            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
-        </div>
-        <div class="context">Shrirang Sapate is a curious and dedicated individual with a strong academic background in Data
-            Science. He enjoys listening & composing music, and believes in the importance of maintaining a healthy
-            work-life balance..</div>
-    </div>
-    
     <div class="content">
         <a href="https://study.iitm.ac.in/ds/" class="heading1">IIT Madras Degree Program in Data Science and ...</a>
         <div class="slug">
@@ -292,11 +279,44 @@
 
 <script>
 export default {
-    name: 'AnswerPageOne',
+    name: 'AnswerPageFive',
 }
 </script>
 
 <style scoped>
+.result p {
+    margin-top: 0;
+    margin-bottom: 0.45rem;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.result li {
+    margin-top: 0;
+    font-size: 17px;
+}
+
+.result {
+    margin-left: 12%;
+    margin-right: 65rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #202124;
+    text-align: left;
+}
+
+.result h2 {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.result small {
+    background-color: #E5EDFF;
+    padding: 3px;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -1024,7 +1044,6 @@ export default {
         margin-left: 0.5rem;
     }
 
-    
 }
 
 @media (min-width:376px) and (max-width:425px) {

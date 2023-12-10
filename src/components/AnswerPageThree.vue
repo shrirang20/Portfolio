@@ -12,12 +12,10 @@
                 <span style="color:transparent;" data-v-c226fde6="">.</span>
                 <span style="color:#4285f4;" data-v-c226fde6="">M</span>
                 <span style="color:#ea4335;" data-v-c226fde6="">e</span>
-
             </div>
 
             <div class="dropdown-header">
-
-                <input type="text" class='box-header' autocomplete="off" value="Who is Shrirang Sapate?" />
+                <input type="text" class='box-header' autocomplete="off" value="Why is Shrirang doing double bachleor's" />
                 <!-- <label for="search" class="search-header">⌕</label> -->
                 <div class="icons">
                     <div class="seprator"> | </div>
@@ -62,68 +60,18 @@
     </div>
 
     <div class="border"></div>
-    <div class="subheader">
-        <div class="name">
-            <div class='heading'>Shrirang Sapate</div>
 
-            <div class='sub-heading'>Student at IIT Madras <fa icon='ellipsis-vertical' class="icons-subheader"></fa>
-            </div>
-        </div>
-        <div class="side-tabs">
-            <div class="overview">Overview</div>
-            <router-link to="/stats" class="Stats">Stats</router-link>
-            <a href="https://www.youtube.com/@shrirangsapate" class="Videos">Videos</a>
-            <!-- <div class="Videos">Videos</div> -->
-        </div>
+    <div class="result">
+        <!-- <h2>Indian Institute of Technology, Madras, and</h2>
+        <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2> -->
+        <small>Shrirang started with Engineering but got intrigued by Data Science during a project on Radio Astronomy,
+            where he saw how Astrophysics and Data Science connect through analyzing space data. This sparked his interest
+            in using data for scientific exploration. Wanting to dive deeper into Data Science's power, he decided on a
+            double Bachelor's, showing a strong preference for Data Science and its ongoing
+            advancements.</small>
     </div>
+    
 
-    <div class="photo">
-        <div class="image-container">
-            <img alt="Shriraang" class="photo1" src="../assets/Stage2.png">
-        </div>
-        <div class="column-2">
-            <div class="image-container-2">
-                <img alt="Speech" class="photo2" src="../assets/Speech.png">
-            </div>
-            <div class="image-container-3">
-                <img alt="Diploma" class="photo3" src="../assets/Diploma.png">
-            </div>
-
-        </div>
-        <!-- <div class="image-container-5">
-            <img alt="Shrirang-Stage" class="photo5" src="../assets/1.png">
-        </div> -->
-        <div class="card2">
-            <div class="image-container-4">
-                <img alt="Diploma" class="photo4" src="../assets/Shrirang-Sapate.png">
-            </div>
-            <div class="context-card">Meet Shrirang, a Data Science student at IIT Madras. From probing the depths of
-                Astrophysics alongside NASA for a year, he's now charting the frontiers of Data Science.Not just crunching
-                numbers; he's published a ML papers and ignited campus culture with his vibrant event leadership.</div>
-        </div>
-
-        <div class="data">
-            <div class="row1">
-                <div class="cards">
-                    <div class="age">Location</div>
-                    <div class="age-value">Nagpur</div>
-                </div>
-                <div class="cards">
-                    <div class="age">Birthdate</div>
-                    <div class="age-value">20thSept</div>
-                </div>
-            </div>
-            <div class="row2">
-                <div class="cards-video">
-                    <iframe class="video" src="https://www.youtube.com/embed/mXXXjrfZsEM?si=Ni3LOnGUTyEoHjuc"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-    </div>
     <div class="border"></div>
 
     <div class="content">
@@ -248,7 +196,7 @@
             Science. He enjoys listening & composing music, and believes in the importance of maintaining a healthy
             work-life balance..</div>
     </div>
-    
+
     <div class="content">
         <a href="https://study.iitm.ac.in/ds/" class="heading1">IIT Madras Degree Program in Data Science and ...</a>
         <div class="slug">
@@ -292,11 +240,32 @@
 
 <script>
 export default {
-    name: 'AnswerPageOne',
+    name: 'AnswerPageThree',
 }
 </script>
 
 <style scoped>
+.result {
+    margin-left: 12%;
+    margin-right: 65rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #202124;
+    text-align: justify;
+}
+
+.result h2 {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.result small {
+    background-color: #E5EDFF;
+    padding: 3px;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -1024,7 +993,6 @@ export default {
         margin-left: 0.5rem;
     }
 
-    
 }
 
 @media (min-width:376px) and (max-width:425px) {
@@ -1842,4 +1810,5 @@ export default {
 }
 
 
-/*---------------------------------------------------------------------------HEADER END---------------------------------------------------------*/</style>
+/*---------------------------------------------------------------------------HEADER END---------------------------------------------------------*/
+</style>
