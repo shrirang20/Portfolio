@@ -1246,7 +1246,7 @@ export default {
     .header-logo {
         display: flex;
         position: relative;
-        left: 6.5rem;
+        left: 7.5rem;
         font-size: 40px !important;
         text-align: center;
     }
@@ -1262,7 +1262,7 @@ export default {
         max-width: 36rem;
         font-size: 16px !important;
         max-height: 3rem;
-        left: 0.5rem;
+        left: 1.5rem;
     }
 
     .icons {
@@ -1279,7 +1279,7 @@ export default {
         flex-direction: column !important;
         width: 41rem;
         position: relative;
-        left: -1rem;
+        left: 1rem;
         overflow: scroll;
         top: -2rem;
     }
@@ -1327,7 +1327,7 @@ export default {
     .subheader {
         display: flex !important;
         flex-direction: column !important;
-        margin-left: 2.5rem !important;
+        margin-left: 4.5rem !important;
         margin-right: 0rem !important;
         margin-top: 0rem !important;
         position: relative;
@@ -1352,7 +1352,7 @@ export default {
     .photo {
         display: flex !important;
         flex-direction: row !important;
-        margin-left: 3rem !important;
+        margin-left: 5rem !important;
         cursor: pointer;
         position: relative;
         top: -2rem;
@@ -1377,6 +1377,8 @@ export default {
 
     .image-container {
         border-radius: 0rem;
+        width: 140px !important;
+        height: 134px !important;
     }
 
     .column-2 {

@@ -244,6 +244,118 @@ export default {
 </script>
 
 <style scoped>
+
+@media (max-width:2560px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 38rem !important;
+        position: relative;
+        top: 0rem;
+    }
+
+    .search-result{
+        left: 2.5rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:1440px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 38rem !important;
+        position: relative;
+        top: 0rem;
+
+    }
+    .search-result{
+        left: -0.7rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+@media (max-width:1024px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 35rem !important;
+        position: relative;
+        top: 0rem;
+
+    }
+    .search-result{
+        left: -2rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 35rem !important;
+        position: relative;
+        top: -3rem;
+    }
+    .search-result{
+        left: -3rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:425px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 21rem !important;
+        position: relative;
+        top: -3rem;
+        font-size: 18px !important;
+    }
+    .search-result{
+        left: -2rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:375px) {
+
+    .result {
+        display: flex;
+        width: 19rem !important;
+        font-size: 18px !important;
+    }
+    .search-result{
+        left: -1.5rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:320px) {
+
+    .result {
+        display: flex;
+        width: 17rem !important;
+        font-size: 18px;
+    }
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
 .result {
     margin-left: 12%;
     margin-right: 65rem;
@@ -1213,14 +1325,14 @@ export default {
     .header-logo {
         display: flex;
         position: relative;
-        left: 6.5rem;
+        left: 8.5rem;
         font-size: 40px !important;
         text-align: center;
     }
 
     .dropdown-header {
         position: relative;
-        left: -2.65rem;
+        left: -0.65rem;
         height: 7rem;
     }
 
@@ -1267,6 +1379,8 @@ export default {
 
     .nav2-content {
         font-size: 14px !important;
+        position: relative;
+        left: 3rem;
     }
 
     .nav2-content .icons-subheader {

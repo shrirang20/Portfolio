@@ -248,6 +248,7 @@ export default {
 </script>
 
 <style scoped>
+
 @media (max-width:768px) {
     
     .result {
@@ -299,7 +300,7 @@ export default {
         text-align: justify;
         display: flex;
         flex-direction: column;
-        max-width: 19rem !important;
+        max-width: 17rem !important;
         position: relative;
         top: -3rem;
     
@@ -681,7 +682,7 @@ export default {
     .box-header {
         position: relative;
         max-width: 19rem;
-        font-size: 16px !important;
+        font-size: 15px !important;
         max-height: 2rem;
         left: 0.1rem;
     }
@@ -1283,7 +1284,7 @@ export default {
     .header-logo {
         display: flex;
         position: relative;
-        left: 6.5rem;
+        left: 8.5rem;
         font-size: 40px !important;
         text-align: center;
     }
@@ -1299,7 +1300,7 @@ export default {
         max-width: 36rem;
         font-size: 16px !important;
         max-height: 3rem;
-        left: 0.5rem;
+        left: 2.5rem;
     }
 
     .icons {
@@ -1316,7 +1317,7 @@ export default {
         flex-direction: column !important;
         width: 41rem;
         position: relative;
-        left: -1rem;
+        left: 2rem;
         overflow: scroll;
         top: -2rem;
     }

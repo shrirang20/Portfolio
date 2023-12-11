@@ -767,7 +767,7 @@ export default {
 
     .questions-active{
         position: relative;
-        left: -0.5rem;
+        left: 0.05rem;
         max-width: 17rem;
         padding-left: 12px;
         
@@ -778,12 +778,13 @@ export default {
     .button-active{
         position: relative;
         display: flex;
-        left: 6.87rem;
+        left: 7.4rem;
         width: 17rem;
     }
     
     .content{
         text-align: start;
+        font-size: 14px !important;
     }
 
     .search-btn{

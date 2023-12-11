@@ -58,42 +58,51 @@
 
         </div>
     </div>
-
-    <div class="border"></div>
-    <div class=" search-result">
-        <div class="result">
-            <!-- <h2>Indian Institute of Technology, Madras, and</h2>
+    <div class="section1">
+        <div class="border"></div>
+        <div class=" search-result">
+            <div class="result">
+                <!-- <h2>Indian Institute of Technology, Madras, and</h2>
         <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2> -->
-            <li><b style=" background-color: #e5edff;">Data Science, Intern - Genik Research Instittue (August 2021- January
-                    2022)</b></li>
-            <li><b style=" background-color: #e5edff;">Data Science, Trainee - Hiclousia Recruitment, IIT Madras Research
-                    Park (May 2022- November 2022)</b></li>
-            <br>
-            <small>Shrirang's journey encompasses immersive experiences, including research internships and practical
-                applications in Machine Learning and Data Science.
-                During his tenure at Genik Research Institute for 6 months, he delved into developing a predictive model for
-                ecological preservation. Subsequently, his 6-month stint at Hiclousia Recruitment, IIT Madras Research Park,
-                involved intensive hands-on work in Data Science applications. These experiences have notably contributed to
-                his
-                expertise and proficiency in these fields.</small>
-        </div>
-        <div class="content">
-            <router-link to="/shrirang-sapate/timeline" class="heading1">Know Shrirang Sapate</router-link>
-            <!-- <div class="heading1">Know about Shrirang</div> -->
-            <div class="slug">
-                <router-link to="/shrirang-sapate#timeline">https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical'
-                        class="icons-subheader"></fa></router-link>
-                <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+                <li><b style=" background-color: #e5edff;">Data Science, Intern - Genik Research Instittue (August 2021-
+                        January
+                        2022)</b></li>
+                <li><b style=" background-color: #e5edff;">Data Science, Trainee - Hiclousia Recruitment, IIT Madras
+                        Research
+                        Park (May 2022- November 2022)</b></li>
+                <br>
+                <small>Shrirang's journey encompasses immersive experiences, including research internships and practical
+                    applications in Machine Learning and Data Science.
+                    During his tenure at Genik Research Institute for 6 months, he delved into developing a predictive model
+                    for
+                    ecological preservation. Subsequently, his 6-month stint at Hiclousia Recruitment, IIT Madras Research
+                    Park,
+                    involved intensive hands-on work in Data Science applications. These experiences have notably
+                    contributed to
+                    his
+                    expertise and proficiency in these fields.</small>
             </div>
-            <div class="context">Meet Shrirang Sapate, a trailblazing Data Science student at IIT Madras. From probing the
-                depths of Astrophysics alongside NASA for three stellar years, he's now charting the frontiers of Data Science.
-                He's not just crunching numbers; he's published a Machine Learning gem during an internship and ignited campus
-                culture with his vibrant event leadership.</div>
-        </div>
-        
-    </div>
+            <div class="content">
+                <router-link to="/shrirang-sapate/timeline" class="heading1">Know Shrirang Sapate</router-link>
+                <!-- <div class="heading1">Know about Shrirang</div> -->
+                <div class="slug">
+                    <router-link to="/shrirang-sapate#timeline">https://know-about-shrirang-sapate.com <fa
+                            icon='ellipsis-vertical' class="icons-subheader"></fa></router-link>
+                    <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+                </div>
+                <div class="context">Meet Shrirang Sapate, a trailblazing Data Science student at IIT Madras. From probing
+                    the
+                    depths of Astrophysics alongside NASA for three stellar years, he's now charting the frontiers of Data
+                    Science.
+                    He's not just crunching numbers; he's published a Machine Learning gem during an internship and ignited
+                    campus
+                    culture with his vibrant event leadership.</div>
+            </div>
 
-    <div class="border"></div>
+        </div>
+
+        <div class="border"></div>
+    </div>
 
     <div class="content">
         <router-link to="/shrirang-sapate" class="heading1">Know Shrirang Sapate</router-link>
@@ -183,7 +192,7 @@
             Science. He enjoys listening & composing music, and believes in the importance of maintaining a healthy
             work-life balance..</div>
     </div>
-    
+
     <div class="content">
         <a href="https://www.instagram.com/_shriraang_/" class="heading1">Shriraang Sapaate(@_shriraang_) • Instagram photos
             and...</a>
@@ -268,8 +277,119 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width:2560px) {
 
-.search-result{
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 38rem !important;
+        position: relative;
+        top: 0rem;
+    }
+
+    .search-result{
+        left: 2.5rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:1440px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 38rem !important;
+        position: relative;
+        top: 0rem;
+
+    }
+    .search-result{
+        left: -0.7rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+@media (max-width:1024px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 35rem !important;
+        position: relative;
+        top: 0rem;
+
+    }
+    .search-result{
+        left: -2rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 35rem !important;
+        position: relative;
+        top: -3rem;
+    }
+    .search-result{
+        left: -3rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:425px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 21rem !important;
+        position: relative;
+        top: -3rem;
+        font-size: 18px !important;
+    }
+    .search-result{
+        left: -2rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:375px) {
+
+    .result {
+        display: flex;
+        width: 19rem !important;
+        font-size: 18px !important;
+    }
+    .search-result{
+        left: -1.5rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:320px) {
+
+    .result {
+        display: flex;
+        width: 17rem !important;
+        font-size: 18px;
+    }
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.search-result {
     display: flex;
     flex-direction: column;
     max-width: 45rem;
@@ -657,7 +777,7 @@ export default {
     .box-header {
         position: relative;
         max-width: 19rem;
-        font-size: 16px !important;
+        font-size: 14px !important;
         max-height: 2rem;
         left: 0.1rem;
     }
@@ -862,7 +982,7 @@ export default {
     .box-header {
         position: relative;
         max-width: 20rem;
-        font-size: 16px !important;
+        font-size: 15px !important;
         max-height: 2rem;
         left: 0.1rem;
     }
@@ -1259,14 +1379,14 @@ export default {
     .header-logo {
         display: flex;
         position: relative;
-        left: 6.5rem;
+        left: 8.5rem;
         font-size: 40px !important;
         text-align: center;
     }
 
     .dropdown-header {
         position: relative;
-        left: -2.65rem;
+        left: -0.65rem;
         height: 7rem;
     }
 
@@ -1292,7 +1412,7 @@ export default {
         flex-direction: column !important;
         width: 41rem;
         position: relative;
-        left: -1rem;
+        left: 1rem;
         overflow: scroll;
         top: -2rem;
     }

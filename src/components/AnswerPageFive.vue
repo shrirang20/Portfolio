@@ -59,71 +59,78 @@
 
         </div>
     </div>
+    <div class="section1">
+        <div class="border"></div>
 
-    <div class="border"></div>
-
-    <div class="result">
-        <!-- <h2>Indian Institute of Technology, Madras, and</h2>
+        <div class="result">
+            <!-- <h2>Indian Institute of Technology, Madras, and</h2>
         <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2> -->
-        <!-- <small>Shrirang did his Bachelor's of Engineering (B.E) from Rashtrasant Tukadoji Maharaj University (RTMNU) in 2017,
+            <!-- <small>Shrirang did his Bachelor's of Engineering (B.E) from Rashtrasant Tukadoji Maharaj University (RTMNU) in 2017,
             he is currently doing Bachelor's of Science (BS) in Data Science and Application from Indian Institute of
             Technology, Madras (IITM)</small> -->
 
-        <h5>Data Science:</h5>
-        <li><b>Research Paper - Machine Learning</b></li>
-        <p><b>Title:</b> Predictive Model for Gross Community Production Rate of Coral Reefs Using Ensemble Learning
-            Methodologies.</p>
-        <p><b>Description:</b> Developed a predictive model using Ensemble Learning and machine learning algorithms to
-            analyze
-            coral reef production. This research highlights the pivotal role of data science in ecological preservation.</p>
+            <h5>Data Science:</h5>
+            <li><b>Research Paper - Machine Learning</b></li>
+            <p><b>Title:</b> Predictive Model for Gross Community Production Rate of Coral Reefs Using Ensemble Learning
+                Methodologies.</p>
+            <p><b>Description:</b> Developed a predictive model using Ensemble Learning and machine learning algorithms to
+                analyze
+                coral reef production. This research highlights the pivotal role of data science in ecological preservation.
+            </p>
 
 
-        <li><b>Grocery Store Management Application</b></li>
-        <p><b>Description:</b> Developed a multi-user application with admin features, product management, and a
-            user-friendly
-            shopping cart. Emphasized UI design and user authentication. Skills in Python, Flask, UI/UX, and e-commerce
-            functionality.</p>
+            <li><b>Grocery Store Management Application</b></li>
+            <p><b>Description:</b> Developed a multi-user application with admin features, product management, and a
+                user-friendly
+                shopping cart. Emphasized UI design and user authentication. Skills in Python, Flask, UI/UX, and e-commerce
+                functionality.</p>
 
-        <li><b>Ticket Book Web App</b></li>
-        <p><b>Description:</b> Created a versatile Ticket Booking Platform with user authentication, role-based access, show
-            management, and advanced search. Utilized Flask API, VueJS UI, and Celery for backend jobs.</p>
-
-
-        <li><b>Power BI Dashboard</b></li>
-        <p><b>Description:</b> Crafted an interactive dashboard for the Cultural segment of IIT Madras' Annual fest (Paradox
-            23).
-            Presented comprehensive insights and reports.</p><br>
+            <li><b>Ticket Book Web App</b></li>
+            <p><b>Description:</b> Created a versatile Ticket Booking Platform with user authentication, role-based access,
+                show
+                management, and advanced search. Utilized Flask API, VueJS UI, and Celery for backend jobs.</p>
 
 
-        <h5>Astrophysics:</h5>
-        <li><b>Research Paper</b></li>
-        <p><b>Title:</b> Comparative Study on Designs of Air Propelled Rocket for Achieving Higher Altitude.
-            <b>Description:</b> Explored rocket designs for higher altitudes, contributing to advancements in aerospace
-            studies.
-        </p>
+            <li><b>Power BI Dashboard</b></li>
+            <p><b>Description:</b> Crafted an interactive dashboard for the Cultural segment of IIT Madras' Annual fest
+                (Paradox
+                23).
+                Presented comprehensive insights and reports.</p><br>
 
-        <li><b>Radio Telescope Projects</b></li>
-        <p><b>Description:</b> Constructed telescopes for studying the Chromosphere of the Sun and detecting Hydrogen and OH
-            from
-            the Sagittarius arm of the Milky Way galaxy. Contributed to astronomical research.</p>
 
-    </div>
-    <div class="content">
-        <router-link to="/shrirang-sapate/timeline" class="heading1">Know Shrirang Sapate</router-link>
-        <!-- <div class="heading1">Know about Shrirang</div> -->
-        <div class="slug">
-            <router-link to="/shrirang-sapate#timeline">https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical'
-                    class="icons-subheader"></fa></router-link>
-            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+            <h5>Astrophysics:</h5>
+            <li><b>Research Paper</b></li>
+            <p><b>Title:</b> Comparative Study on Designs of Air Propelled Rocket for Achieving Higher Altitude.
+                <b>Description:</b> Explored rocket designs for higher altitudes, contributing to advancements in aerospace
+                studies.
+            </p>
+
+            <li><b>Radio Telescope Projects</b></li>
+            <p><b>Description:</b> Constructed telescopes for studying the Chromosphere of the Sun and detecting Hydrogen
+                and OH
+                from
+                the Sagittarius arm of the Milky Way galaxy. Contributed to astronomical research.</p>
+
         </div>
-        <div class="context">Meet Shrirang Sapate, a trailblazing Data Science student at IIT Madras. From probing the
-            depths of Astrophysics alongside NASA for three stellar years, he's now charting the frontiers of Data Science.
-            He's not just crunching numbers; he's published a Machine Learning gem during an internship and ignited campus
-            culture with his vibrant event leadership.</div>
+        <div class="content">
+            <router-link to="/shrirang-sapate/timeline" class="heading1">Know Shrirang Sapate</router-link>
+            <!-- <div class="heading1">Know about Shrirang</div> -->
+            <div class="slug">
+                <router-link to="/shrirang-sapate#timeline">https://know-about-shrirang-sapate.com <fa
+                        icon='ellipsis-vertical' class="icons-subheader"></fa></router-link>
+                <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+            </div>
+            <div class="context">Meet Shrirang Sapate, a trailblazing Data Science student at IIT Madras. From probing the
+                depths of Astrophysics alongside NASA for three stellar years, he's now charting the frontiers of Data
+                Science.
+                He's not just crunching numbers; he's published a Machine Learning gem during an internship and ignited
+                campus
+                culture with his vibrant event leadership.</div>
+        </div>
+
+
+        <div class="border"></div>
     </div>
-
-
-    <div class="border"></div>
 
     <div class="content">
         <a href="https://arxiv.org/abs/2111.04003" class="heading1">Predictive Model for Gross Community Production Rate of
@@ -284,6 +291,72 @@ export default {
 </script>
 
 <style scoped>
+
+@media (max-width:2560px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 40rem !important;
+        position: relative;
+        top: 0rem;
+    
+    }
+}
+@media (max-width:1440px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 40rem !important;
+        position: relative;
+        top: 0rem;
+    
+    }
+}
+@media (max-width:768px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 35rem !important;
+        position: relative;
+        top: -3rem;
+    }
+}
+@media (max-width:425px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 21rem !important;
+        position: relative;
+        top: -3rem;
+    }
+}
+@media (max-width:375px) {
+
+    .result {
+        display: flex;
+        width: 19rem !important;
+        font-size: 18px;
+    }
+}
+@media (max-width:320px) {
+
+    .result {
+        display: flex;
+        width: 17rem !important;
+        font-size: 18px;
+    }
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .result p {
     margin-top: 0;
     margin-bottom: 0.45rem;
@@ -663,7 +736,7 @@ export default {
     .box-header {
         position: relative;
         max-width: 19rem;
-        font-size: 16px !important;
+        font-size: 14px !important;
         max-height: 2rem;
         left: 0.1rem;
     }
@@ -868,7 +941,7 @@ export default {
     .box-header {
         position: relative;
         max-width: 20rem;
-        font-size: 16px !important;
+        font-size: 15px !important;
         max-height: 2rem;
         left: 0.1rem;
     }
@@ -1075,7 +1148,7 @@ export default {
     .box-header {
         position: relative;
         max-width: 21rem;
-        font-size: 16px !important;
+        font-size: 15px !important;
         max-height: 2rem;
         left: 0.1rem;
     }
@@ -1265,7 +1338,7 @@ export default {
     .header-logo {
         display: flex;
         position: relative;
-        left: 6.5rem;
+        left: 8rem;
         font-size: 40px !important;
         text-align: center;
     }
@@ -1281,7 +1354,7 @@ export default {
         max-width: 36rem;
         font-size: 16px !important;
         max-height: 3rem;
-        left: 0.5rem;
+        left: 2rem;
     }
 
     .icons {
@@ -1298,7 +1371,7 @@ export default {
         flex-direction: column !important;
         width: 41rem;
         position: relative;
-        left: -1rem;
+        left: 0rem;
         overflow: scroll;
         top: -2rem;
     }
@@ -1319,6 +1392,8 @@ export default {
 
     .nav2-content {
         font-size: 14px !important;
+        position: relative;
+        left: 4%;
     }
 
     .nav2-content .icons-subheader {

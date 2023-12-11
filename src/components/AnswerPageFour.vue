@@ -14,7 +14,7 @@
                 <span style="color:#ea4335;" data-v-c226fde6="">e</span>
             </div>
 
-            <div class="dropdown-header">   
+            <div class="dropdown-header">
                 <input type="text" class='box-header' autocomplete="off" value="What are Shrirang's educational stats" />
                 <!-- <label for="search" class="search-header">⌕</label> -->
                 <div class="icons">
@@ -58,34 +58,40 @@
 
         </div>
     </div>
+    <div class="section1">
+        <div class="border"></div>
 
-    <div class="border"></div>
-
-    <div class="result">
-        <!-- <h2>Indian Institute of Technology, Madras, and</h2>
+        <div class="result">
+            <!-- <h2>Indian Institute of Technology, Madras, and</h2>
         <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2> -->
-        <small>Shrirang holds a Bachelor's in <b class="highlight">Engineering (Electronics & Telecommunication)</b>  with a <b class="highlight">CGPA of 6.39.</b> Currently
-            pursuing a Bachelor's of Science <b class="highlight">(Data Science)</b> at
-            IIT Madras, he maintains a commendable <b class="highlight">CGPA of 7.4.</b> Noteworthy is his exceptional performance as a subject
-            <b class="highlight">topper in Statistics, Business Data Management, Business Analytics, Tools in Data Science, and System Commands.</b>
-            Within the Data Science curriculum out of six subject, he excelled as the topper in three subjects: Business Data Management,
-            Business Analytics, and Tools in Data Science.</small>
-    </div>
-    
-    <div class="content">
-        <router-link to="/stats" class="heading1">Know Shrirang's Analytical insights</router-link>
-        <!-- <div class="heading1">Know about Shrirang</div> -->
-        <div class="slug">
-            <router-link to="/stats">https://shrirang-sapate-analytics.com <fa icon='ellipsis-vertical'
-                    class="icons-subheader"></fa></router-link>
-            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+            <small>Shrirang holds a Bachelor's in <b class="highlight">Engineering (Electronics & Telecommunication)</b>
+                with a <b class="highlight">CGPA of 6.39.</b> Currently
+                pursuing a Bachelor's of Science <b class="highlight">(Data Science)</b> at
+                IIT Madras, he maintains a commendable <b class="highlight">CGPA of 7.4.</b> Noteworthy is his exceptional
+                performance as a subject
+                <b class="highlight">topper in Statistics, Business Data Management, Business Analytics, Tools in Data
+                    Science, and System Commands.</b>
+                Within the Data Science curriculum out of six subject, he excelled as the topper in three subjects: Business
+                Data Management,
+                Business Analytics, and Tools in Data Science.</small>
         </div>
-        <div class="context">Shrirang's analytics journey at IIT Madras showcased growth across nine pivotal phases. From
-            engineering fundamentals to cultural leadership, he honed technical proficiency, research methodology, and
-            visionary leadership, impacting peers and fostering community engagement.</div>
-    </div>
 
-    <div class="border"></div>
+        <div class="content">
+            <router-link to="/stats" class="heading1">Know Shrirang's Analytical insights</router-link>
+            <!-- <div class="heading1">Know about Shrirang</div> -->
+            <div class="slug">
+                <router-link to="/stats">https://shrirang-sapate-analytics.com <fa icon='ellipsis-vertical'
+                        class="icons-subheader"></fa></router-link>
+                <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+            </div>
+            <div class="context">Shrirang's analytics journey at IIT Madras showcased growth across nine pivotal phases.
+                From
+                engineering fundamentals to cultural leadership, he honed technical proficiency, research methodology, and
+                visionary leadership, impacting peers and fostering community engagement.</div>
+        </div>
+
+        <div class="border"></div>
+    </div>
 
     <div class="content">
         <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870" class="heading1">Shrirang Sapate - IIT Madras </a>
@@ -115,7 +121,7 @@
             culture with his vibrant event leadership.</div>
     </div>
 
-    
+
 
     <div class="content">
         <a href="https://in.linkedin.com/in/shriraangsapaate" class="heading1">Shriraang Sapate</a>
@@ -199,7 +205,7 @@
         </div>
     </div>
 
-    
+
 
     <div class="content">
         <a href="https://study.iitm.ac.in/ds/" class="heading1">IIT Madras Degree Program in Data Science and ...</a>
@@ -249,6 +255,69 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width:2560px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 40rem !important;
+        position: relative;
+        top: 0rem;
+    
+    }
+}
+@media (max-width:1440px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 40rem !important;
+        position: relative;
+        top: 0rem;
+    
+    }
+}
+@media (max-width:768px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 35rem !important;
+        position: relative;
+        top: -3rem;
+    }
+}
+@media (max-width:425px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 21rem !important;
+        position: relative;
+        top: -3rem;
+    }
+}
+@media (max-width:375px) {
+
+    .result {
+        display: flex;
+        width: 19rem !important;
+        font-size: 18px;
+    }
+}
+@media (max-width:320px) {
+
+    .result {
+        display: flex;
+        width: 17rem !important;
+        font-size: 18px;
+    }
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+}
 
 .highlight {
     background-color: #E5EDFF;
@@ -1221,14 +1290,14 @@ export default {
     .header-logo {
         display: flex;
         position: relative;
-        left: 6.5rem;
+        left: 8.5rem;
         font-size: 40px !important;
         text-align: center;
     }
 
     .dropdown-header {
         position: relative;
-        left: -2.65rem;
+        left: -0.65rem;
         height: 7rem;
     }
 
@@ -1254,7 +1323,7 @@ export default {
         flex-direction: column !important;
         width: 41rem;
         position: relative;
-        left: -1rem;
+        left: 2rem;
         overflow: scroll;
         top: -2rem;
     }

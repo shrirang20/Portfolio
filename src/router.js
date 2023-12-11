@@ -7,7 +7,7 @@ import AnswerPageTwo from './components/AnswerPageTwo.vue'
 import AnswerPageThree from './components/AnswerPageThree.vue'
 import AnswerPageFour from './components/AnswerPageFour.vue'
 import AnswerPageFive from './components/AnswerPageFive.vue'
-import AnswerPageSix from './components/AnswerPageSix.vue'
+// import AnswerPageSix from './components/AnswerPageSix.vue'
 import AnswerPageSeven from './components/AnswerPageSeven.vue'
 import AnswerPageEight from './components/AnswerPageEight.vue'
 
@@ -55,11 +55,11 @@ const routes = [
         component:AnswerPageFive,
         path: '/5'
     },
-    {
-        name:'Answer6',
-        component:AnswerPageSix,
-        path: '/6'
-    },
+    // {
+    //     name:'Answer6',
+    //     component:AnswerPageSix,
+    //     path: '/6'
+    // },
     {
         name:'Answer7',
         component:AnswerPageSeven,

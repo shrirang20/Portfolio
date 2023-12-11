@@ -61,30 +61,36 @@
         </div>
     </div>
 
-    <div class="border"></div>
+    <div class="section1">
+        <div class="border"></div>
 
-    <div class="result">
-        <h2>Indian Institute of Technology, Madras, and</h2>
-        <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2>
-        <small>Shrirang did his <b class="highlight">Bachelor's of Engineering (B.E) from Rashtrasant Tukadoji Maharaj University (RTMNU)</b> in 2017,
-            he is currently doing <b class="highlight">Bachelor's of Science (BS) in Data Science and Application from Indian Institute of
-            Technology, Madras (IITM)</b></small>
-    </div>
-    <div class="content">
-        <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870" class="heading1">Shrirang Sapate - IIT Madras </a>
-        <!-- <div class="heading1">Know about Shrirang</div> -->
-        <div class="slug">
-            <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870">https://app.onlinedegree.iitm.ac.in/student/21F1002870
-                <fa icon='ellipsis-vertical' class="icons-subheader"></fa>
-            </a>
-            <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+        <div class="result">
+            <h2>Indian Institute of Technology, Madras, and</h2>
+            <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2>
+            <small>Shrirang did his <b class="highlight">Bachelor's of Engineering (B.E) from Rashtrasant Tukadoji Maharaj
+                    University (RTMNU)</b> in 2017,
+                he is currently doing <b class="highlight">Bachelor's of Science (BS) in Data Science and Application from
+                    Indian Institute of
+                    Technology, Madras (IITM)</b></small>
         </div>
-        <div class="context">Shrirang Sapate is a curious and dedicated individual with a strong academic background in Data
-            Science. He enjoys listening & composing music, and believes in the importance of maintaining a healthy
-            work-life balance..</div>
-    </div>
+        <div class="content">
+            <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870" class="heading1">Shrirang Sapate - IIT Madras
+            </a>
+            <!-- <div class="heading1">Know about Shrirang</div> -->
+            <div class="slug">
+                <a href="https://app.onlinedegree.iitm.ac.in/student/21F1002870">https://app.onlinedegree.iitm.ac.in/student/21F1002870
+                    <fa icon='ellipsis-vertical' class="icons-subheader"></fa>
+                </a>
+                <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
+            </div>
+            <div class="context">Shrirang Sapate is a curious and dedicated individual with a strong academic background in
+                Data
+                Science. He enjoys listening & composing music, and believes in the importance of maintaining a healthy
+                work-life balance..</div>
+        </div>
 
-    <div class="border"></div>
+        <div class="border"></div>
+    </div>
 
     <div class="content">
         <router-link to="/shrirang-sapate" class="heading1">Know Shrirang Sapate</router-link>
@@ -244,10 +250,133 @@ export default {
 
 <style scoped>
 
+@media (max-width:2560px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 38rem !important;
+        position: relative;
+        top: 0rem;
+    }
+
+    .search-result{
+        left: 2.5rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:1440px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 38rem !important;
+        position: relative;
+        top: 0rem;
+
+    }
+    .search-result{
+        left: -0.7rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+@media (max-width:1024px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 35rem !important;
+        position: relative;
+        top: 0rem;
+
+    }
+    .search-result{
+        left: -2rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 35rem !important;
+        position: relative;
+        top: -3rem;
+        font-size: 17px !important;
+    }
+
+    .result h2{
+        font-size: 20px !important;
+    }
+
+    .search-result{
+        left: -3rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:425px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        width: 21rem !important;
+        position: relative;
+        top: -3rem;
+        font-size: 18px !important;
+    }
+    .search-result{
+        left: -2rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:375px) {
+
+    .result {
+        display: flex;
+        width: 19rem !important;
+        font-size: 18px !important;
+    }
+    .search-result{
+        left: -1.5rem ;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media (max-width:320px) {
+
+    .result {
+        display: flex;
+        width: 17rem !important;
+        font-size: 18px;
+    }
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
 .highlight {
     background-color: #E5EDFF;
-    padding: 3px;;
+    padding: 3px;
 }
+
 .result {
     margin-left: 12%;
     margin-right: 65rem;
@@ -1217,7 +1346,7 @@ export default {
     .header-logo {
         display: flex;
         position: relative;
-        left: 6.5rem;
+        left: 8rem;
         font-size: 40px !important;
         text-align: center;
     }
@@ -1233,7 +1362,7 @@ export default {
         max-width: 36rem;
         font-size: 16px !important;
         max-height: 3rem;
-        left: 0.5rem;
+        left: 2.5rem;
     }
 
     .icons {
@@ -1250,7 +1379,7 @@ export default {
         flex-direction: column !important;
         width: 41rem;
         position: relative;
-        left: -1rem;
+        left: 2rem;
         overflow: scroll;
         top: -2rem;
     }
