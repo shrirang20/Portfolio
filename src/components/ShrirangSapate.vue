@@ -1,10 +1,13 @@
 <template>
   <div v-if="loading" class="loading-indicator">
-    <div class="spinner"></div>
-    <span>Loading....</span><br>
-    <span>please view on Desktop or Laptop for better view</span>
+    <div class="line">
+      <div class="spinner"></div>
+      <span>Loading....</span>
+
+      <span>This Page is only compatible with Desktop and Laptops, till further updates</span>
+    </div>
   </div>
-  <div v-else >
+  <div v-else>
     <div class="home">
       <router-link to="/" class="logo">
         <span style="color:#4285f4;">P</span>
@@ -458,10 +461,10 @@ export default {
   },
 
   mounted() {
-    
+
     setTimeout(() => {
-            this.loading = false;
-        }, 2000);
+      this.loading = false;
+    }, 2000);
 
     this.isTyping = true;
     const LineAnimationDuration = 1800;
@@ -512,6 +515,12 @@ export default {
 </script>
 
 <style scoped>
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .loading-indicator {
   /* Style your loading indicator here */
@@ -524,31 +533,33 @@ export default {
   /* Add background/color/animations for better UI/UX */
 }
 
-.spinner{
-  border: 4px solid rgba( 0, 0, 0, 0.1);
-  border-top:4px solid #3498db;
-  border-radius: 50%; 
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
   width: 50px;
   height: 50px;
   animation: spin 1s linear infinite;
   margin-bottom: 20px;
 }
 
-@keyframes spin{
-  0%{
-      transform: rotate(0deg);
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-  100%{
-      transform: rotate(360deg);
+
+  100% {
+    transform: rotate(360deg);
   }
 }
 
-.dashboard{
+.dashboard {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 100vh;
 }
+
 .globe {
   font-size: 26px;
   color: #4285f4;
