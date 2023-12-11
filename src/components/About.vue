@@ -1,8 +1,14 @@
 <template>
     <div class="nav">
-        <a href="mailto:official.shriraang@gmail.com" class="mail">Gmail</a>
+        <a href="mailto:official.shriraang@gmail.com" class="mail icon-link">
+            Gmail
+            <span class="icon-text">connect with Shrirang</span>
+        </a>
         <!-- <router-link to="/" class="images">Images</router-link> -->
-        <a class="images">Images</a>
+        <a class="images icon-link">
+            Images
+        <span class="icon-text">Under development</span>
+        </a>
         <img alt="flask logo" src="../assets/flask-outline.svg" class="flask">
         <i class="fa fa-th" aria-hidden="true"></i>
         <i class="fa-sharp fa-solid fa-braille"></i>
@@ -131,6 +137,24 @@ export default {
 </script>
 
 <style scoped>
+
+.icon-text {
+    display: none;
+    /* Hide text by default */
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    z-index: 1;
+  }
+.icon-link:hover .icon-text {
+    display: block;
+    /* Show text on hover */
+    width: 100px;
+    margin-top: 90px;
+  }  
+
 .nav,
 .images,
 .mail {
