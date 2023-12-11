@@ -1,0 +1,4 @@
+[[redirect]]
+from = "/*"
+to = "router.js"
+status = 200
