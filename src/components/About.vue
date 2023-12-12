@@ -99,6 +99,12 @@ export default {
     },
     methods: {
 
+        trackPageView(pagePath, pageTitle) {
+            this.$gtag.pageview({
+                page_path:pagePath,
+                page_title:pageTitle})
+        },
+
         questionclicked() {
             this.$gtag.event('question-visited', {
                 'event_category': 'result-page',
@@ -142,6 +148,7 @@ export default {
     },
     created() {
         this.loadAnswerComponent();
+        this.trackPageView('/about', 'AboutPage');
     },
 };
 </script>

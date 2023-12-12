@@ -23,10 +23,20 @@ export default {
             loading: true,
         };
     },
+    methods: {
+        trackPageView(pagePath, pageTitle) {
+            this.$gtag.pageview({
+                page_path:pagePath,
+                page_title:pageTitle})
+        },
+    },
     mounted(){
         setTimeout(() => {
             this.loading = false;
         }, 4000);
+    },
+    created() {
+        this.trackPageView('/stats', 'Stats Page');
     },
    
 }

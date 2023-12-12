@@ -71,7 +71,7 @@
         </div>
         <div class="side-tabs">
             <div class="overview">Overview</div>
-            <router-link to="/stats" class="Stats">Stats</router-link>
+            <router-link to="/stats" class="Stats" @class="statscliked">Stats</router-link>
             <a href="https://www.youtube.com/@shrirangsapate" class="Videos" @click="videocliked">Videos</a>
             <!-- <div class="Videos">Videos</div> -->
         </div>
@@ -302,6 +302,15 @@ export default {
                 'value': 1
             })
 
+        },
+
+        statscliked() {
+            console.log("video clicked");
+            this.$gtag.event('stats-visited', {
+                'event_category': 'stats-page',
+                'event_label': 'stats-tab-clicked',
+                'value': 1
+            })
         },
     }
 }
