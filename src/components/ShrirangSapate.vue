@@ -510,7 +510,15 @@ export default {
       }
     },
 
-  },
+    trackPageView(pagePath, pageTitle) {
+        this.$gtag.pageview({
+            page_path:pagePath,
+            page_title:pageTitle})
+      },
+    },
+    created() {
+        this.trackPageView('/shrirang-sapate', 'ShrirangSapatePage');
+    },
 }
 </script>
 

@@ -68,6 +68,17 @@
     <div v-if="questionData">
         <component :is="answerComponentName"></component>
     </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; Shrirang Sapate</p>
+            <ul class="footer-links">
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="mailto:official.shriraang@gmail.com">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
 </template>
 
 <script>
@@ -154,6 +165,42 @@ export default {
 </script>
 
 <style scoped>
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-links a {
+    color: #555;
+    text-decoration: none;
+}
+
 .icon-text {
     display: none;
     /* Hide text by default */

@@ -245,7 +245,18 @@
 <script>
 export default {
     name: 'AnswerPageTwo',
+    methods: {
+        trackPageView(pagePath, pageTitle) {
+            this.$gtag.pageview({
+                page_path:pagePath,
+                page_title:pageTitle})
+        },
+    },
+    created() {
+        this.trackPageView('/2', 'AnswerPageTwo');
+    },
 }
+
 </script>
 
 <style scoped>

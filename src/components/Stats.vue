@@ -23,6 +23,11 @@ export default {
             loading: true,
         };
     },
+    mounted(){
+        setTimeout(() => {
+            this.loading = false;
+        }, 4000);
+    },
     methods: {
         trackPageView(pagePath, pageTitle) {
             this.$gtag.pageview({
@@ -30,13 +35,8 @@ export default {
                 page_title:pageTitle})
         },
     },
-    mounted(){
-        setTimeout(() => {
-            this.loading = false;
-        }, 4000);
-    },
     created() {
-        this.trackPageView('/stats', 'Stats Page');
+        this.trackPageView('/stats', 'StatsPage');
     },
    
 }

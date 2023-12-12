@@ -244,6 +244,16 @@
 <script>
 export default {
     name: 'AnswerPageThree',
+    methods: {
+        trackPageView(pagePath, pageTitle) {
+            this.$gtag.pageview({
+                page_path:pagePath,
+                page_title:pageTitle})
+        },
+    },
+    created() {
+        this.trackPageView('/3', 'AnswerPageThree');
+    },
 }
 </script>
 
