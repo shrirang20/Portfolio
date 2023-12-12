@@ -26,6 +26,7 @@
     "css.gg": "^2.1.1",
     "mdb-vue-ui-kit": "^4.1.1",
     "vue": "^3.2.13",
+    "vue-gtag": "^2.0.1",
     "vue-router": "^4.0.13"
   },
   "devDependencies": {

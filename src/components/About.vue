@@ -7,7 +7,7 @@
         <!-- <router-link to="/" class="images">Images</router-link> -->
         <a class="images icon-link">
             Images
-        <span class="icon-text">Under development</span>
+            <span class="icon-text">Under development</span>
         </a>
         <img alt="flask logo" src="../assets/flask-outline.svg" class="flask">
         <i class="fa fa-th" aria-hidden="true"></i>
@@ -43,7 +43,7 @@
                                 <fa :icon="['far', 'clock']" class="clock-icon"></fa>
                             </div>
                             <div class="cell-2">
-                                <span class="question">{{ question }}</span>
+                                <span class="question" @click="questionclicked">{{ question }}</span>
                                 <!-- <span class="question">{{ question }}</span> -->
                                 <!-- /question/${encodeURIComponent(question)} -->
                             </div>
@@ -91,13 +91,23 @@ export default {
             },
             isBoxActive: false,
             isButtonActive: false,
-            questionData:null,
+            questionData: null,
         };
     },
-    watch:{
-        '$route.params.id':'loadAnswerComponent'
+    watch: {
+        '$route.params.id': 'loadAnswerComponent'
     },
     methods: {
+
+        questionclicked() {
+            this.$gtag.event('question-visited', {
+                'event_category': 'result-page',
+                'event_label': 'question-clicked',
+                'value': 1
+            })
+
+        },
+
         selectQuestion(question) {
             this.selectedQuestion = question;
             this.showQuestions = false;
@@ -114,11 +124,11 @@ export default {
             // this.showModal = true;
         },
 
-        loadAnswerComponent(){
+        loadAnswerComponent() {
             const questionId = parseInt(this.$route.params.id);
             const question = questionData.find(q => q.id === questionId);
 
-            if(question){
+            if (question) {
                 this.questionData = question;
             }
         },
@@ -130,14 +140,13 @@ export default {
         },
 
     },
-    created(){
+    created() {
         this.loadAnswerComponent();
     },
 };
 </script>
 
 <style scoped>
-
 .icon-text {
     display: none;
     /* Hide text by default */
@@ -147,13 +156,14 @@ export default {
     padding: 5px;
     border-radius: 3px;
     z-index: 1;
-  }
+}
+
 .icon-link:hover .icon-text {
     display: block;
     /* Show text on hover */
     width: 100px;
     margin-top: 90px;
-  }  
+}
 
 .nav,
 .images,
@@ -224,7 +234,7 @@ export default {
 .search {
     font-size: 30px;
     /*transform: translateX(200%);*/
-    position:relative;
+    position: relative;
     z-index: 1;
     left: 1.2em;
 }
@@ -443,19 +453,19 @@ export default {
 
 /* For screens wider than 768px */
 @media only screen and (min-width: 768px) {
-    
+
     .nav {
-      display: flex;
-      /*justify-content: space-between;*/
-      margin-top: 20px;
-      justify-content: flex-end;
+        display: flex;
+        /*justify-content: space-between;*/
+        margin-top: 20px;
+        justify-content: flex-end;
     }
-  
+
     .name {
-      margin-top: 12rem;
-      text-align: center;
+        margin-top: 12rem;
+        text-align: center;
     }
-  
+
     /*.search {
       margin-top: 0px;
     }
@@ -477,16 +487,16 @@ export default {
 /* For screens between 576px and 768px */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .nav {
-      display: flex;
-      margin-top: 20px;
-      justify-content: flex-end;
+        display: flex;
+        margin-top: 20px;
+        justify-content: flex-end;
     }
-  
+
     .name {
-      margin-top: 12rem;
-      text-align: center;
+        margin-top: 12rem;
+        text-align: center;
     }
-  
+
     /*.search {
       margin-top: 0px;
     }
@@ -503,10 +513,10 @@ export default {
     .button {
       margin-top: 0px;
     }*/
-  }
-  
-  /* For screens smaller than 576px */
-  /*@media (min-width: 321px) and (max-width: 575px) {
+}
+
+/* For screens smaller than 576px */
+/*@media (min-width: 321px) and (max-width: 575px) {
     .nav {
       display: flex;
       margin-top: 20px;
@@ -549,23 +559,25 @@ export default {
 
 } -*/
 
-@media (min-width:443px) and (max-width:575px){
+@media (min-width:443px) and (max-width:575px) {
 
-    .nav{
+    .nav {
         display: flex;
         justify-content: flex-end;
     }
-    .name{
+
+    .name {
         margin-top: 12rem;
         text-align: center;
-        font-size: 50px ;
+        font-size: 50px;
     }
+
     /*.search{
         transform: translate(15px);
         z-index: 1;
     }*/
 
-    .box{
+    .box {
         min-width: 25rem;
         margin-left: 0%;
         transform: translateX(0px);
@@ -573,7 +585,7 @@ export default {
         position: relative;
     }
 
-    .box-active{
+    .box-active {
         min-width: 25rem;
         margin-left: 0%;
         transform: translateX(0px);
@@ -581,24 +593,24 @@ export default {
         position: relative;
     }
 
-    .custom-mic{
+    .custom-mic {
         /*transform: translateX(-150%);*/
         position: relative;
-        left:-3rem;
+        left: -3rem;
     }
 
-    .questions-active{
+    .questions-active {
         position: relative;
         left: -0.2rem;
         max-width: 25rem;
         padding-left: 12px;
-        
+
         /*transform: translateX(0px);
         transform: translateX(35px);*/
 
     }
 
-    .button-active{
+    .button-active {
         position: relative;
         display: flex;
         left: 3.1rem;
@@ -618,27 +630,31 @@ export default {
         background-color: white;
         border-top:none;*/
     }
-    .content{
+
+    .content {
         text-align: start;
     }
 }
-@media (min-width:362px) and (max-width:442px){
 
-    .nav{
+@media (min-width:362px) and (max-width:442px) {
+
+    .nav {
         display: flex;
         justify-content: flex-end;
     }
-    .name{
+
+    .name {
         margin-top: 250px;
         text-align: center;
-        font-size: 40px ;
+        font-size: 40px;
     }
+
     /*.search{
         transform: translate(15px);
         z-index: 1;
     }*/
 
-    .box{
+    .box {
         min-width: 20rem;
         margin-left: 0%;
         transform: translateX(0px);
@@ -646,7 +662,7 @@ export default {
         position: relative;
     }
 
-    .box-active{
+    .box-active {
         min-width: 20rem;
         margin-left: 0%;
         transform: translateX(0px);
@@ -654,56 +670,60 @@ export default {
         position: relative;
     }
 
-    .custom-mic{
+    .custom-mic {
         /*transform: translateX(-150%);*/
         position: relative;
-        right:2em;
+        right: 2em;
     }
 
-    .questions-active{
+    .questions-active {
         position: relative;
         left: -0.2rem;
         max-width: 20rem;
         padding-left: 12px;
-        max-height:14rem;
+        max-height: 14rem;
         /*transform: translateX(0px);
         transform: translateX(35px);*/
 
     }
-    .button-active{
+
+    .button-active {
         position: relative;
         display: flex;
         left: 5.6rem;
         width: 20rem;
     }
-    
-    .content{
+
+    .content {
         text-align: start;
     }
 
-    .button-active .search-btn{
+    .button-active .search-btn {
         width: 8rem;
         height: 3rem;
         font-size: 13px;
     }
 }
-@media (min-width:322px) and (max-width:361px){
 
-    .nav{
+@media (min-width:322px) and (max-width:361px) {
+
+    .nav {
         display: flex;
         justify-content: flex-end;
     }
-    .name{
+
+    .name {
         margin-top: 12rem;
         text-align: center;
-        font-size: 38px ;
+        font-size: 38px;
     }
+
     /*.search{
         transform: translate(15px);
         z-index: 1;
     }*/
 
-    .box{
+    .box {
         min-width: 19rem;
         left: -0.5rem;
         transform: translateX(0px);
@@ -711,7 +731,7 @@ export default {
         position: relative;
     }
 
-    .box-active{
+    .box-active {
         min-width: 19rem;
         left: -0.5rem;
         transform: translateX(0px);
@@ -719,56 +739,60 @@ export default {
         position: relative;
     }
 
-    .custom-mic{
+    .custom-mic {
         /*transform: translateX(-150%);*/
         position: relative;
         display: none;
     }
 
-    .questions-active{
+    .questions-active {
         position: relative;
         left: 0.05rem;
         max-width: 19rem;
         padding-left: 12px;
-        
+
         /*transform: translateX(0px);
         transform: translateX(35px);*/
 
     }
-    .button-active{
+
+    .button-active {
         position: relative;
         display: flex;
         left: 6.37rem;
         width: 19rem;
     }
-    
-    .content{
+
+    .content {
         text-align: start;
     }
 
-    .button-active .search-btn{
+    .button-active .search-btn {
         width: 8rem;
         height: 3rem;
         font-size: 13px;
     }
 }
-@media (max-width:321px){
 
-    .nav{
+@media (max-width:321px) {
+
+    .nav {
         display: flex;
         justify-content: flex-end;
     }
-    .name{
+
+    .name {
         margin-top: 12rem;
         text-align: center;
-        font-size: 38px ;
+        font-size: 38px;
     }
+
     /*.search{
         transform: translate(15px);
         z-index: 1;
     }*/
 
-    .box{
+    .box {
         min-width: 17rem;
         left: -0.5rem;
         transform: translateX(0px);
@@ -776,7 +800,7 @@ export default {
         position: relative;
     }
 
-    .box-active{
+    .box-active {
         min-width: 17rem;
         left: -0.5rem;
         transform: translateX(0px);
@@ -784,45 +808,48 @@ export default {
         position: relative;
     }
 
-    .custom-mic{
+    .custom-mic {
         /*transform: translateX(-150%);*/
         position: relative;
         display: none;
     }
 
-    .questions-active{
+    .questions-active {
         position: relative;
         left: 0.05rem;
         max-width: 17rem;
         padding-left: 12px;
-        
+
         /*transform: translateX(0px);
         transform: translateX(35px);*/
 
     }
-    .button-active{
+
+    .button-active {
         position: relative;
         display: flex;
         left: 7.4rem;
         width: 17rem;
     }
-    
-    .content{
+
+    .content {
         text-align: start;
         font-size: 14px !important;
     }
 
-    .search-btn{
+    .search-btn {
         width: 8rem;
         height: 3rem;
         font-size: 13px;
     }
-    .button-active .search-btn{
+
+    .button-active .search-btn {
         width: 8rem;
         height: 3rem;
         font-size: 13px;
     }
 }
+
 /*@media (max-width:442px){
 
     .nav{
@@ -839,7 +866,7 @@ export default {
         z-index: 1;
     }*/
 
-   /* .box{
+/* .box{
         min-width: 300px;
         margin-left: 0%;
         transform: translateX(0px);
@@ -866,7 +893,7 @@ export default {
         z-index: 1;
     }*/
 
-   /* .box{
+/* .box{
         min-width: 200px;
         margin-left: 0%;
         transform: translateX(0px);
@@ -877,6 +904,4 @@ export default {
         transform: translateX(-150%);
     }
 }
-*/
-
-</style>
+*/</style>

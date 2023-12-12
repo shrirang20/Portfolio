@@ -29,7 +29,7 @@
 
         <div class="nav-header">
             <a href="mailto:official.shriraang@gmail.com" class="mail-header">Gmail</a>
-            <a class="images-header">Images </a>      
+            <a class="images-header">Images </a>
             <img alt="flask-logo" src="../assets/flask-outline.svg" class="flask-header">
             <i class="fa fa-th" aria-hidden="true"></i>
             <i class="fa-sharp fa-solid fa-braille"></i>
@@ -72,7 +72,7 @@
         <div class="side-tabs">
             <div class="overview">Overview</div>
             <router-link to="/stats" class="Stats">Stats</router-link>
-            <a href="https://www.youtube.com/@shrirangsapate" class="Videos">Videos</a>
+            <a href="https://www.youtube.com/@shrirangsapate" class="Videos" @click="videocliked">Videos</a>
             <!-- <div class="Videos">Videos</div> -->
         </div>
     </div>
@@ -248,7 +248,7 @@
             Science. He enjoys listening & composing music, and believes in the importance of maintaining a healthy
             work-life balance..</div>
     </div>
-    
+
     <div class="content">
         <a href="https://study.iitm.ac.in/ds/" class="heading1">IIT Madras Degree Program in Data Science and ...</a>
         <div class="slug">
@@ -293,7 +293,19 @@
 <script>
 export default {
     name: 'AnswerPageOne',
+    methods: {
+        videocliked() {
+            console.log("video clicked");
+            this.$gtag.event('video-visited', {
+                'event_category': 'video-page',
+                'event_label': 'video-tab-clicked',
+                'value': 1
+            })
+
+        },
+    }
 }
+
 </script>
 
 <style scoped>
@@ -1024,7 +1036,7 @@ export default {
         margin-left: 0.5rem;
     }
 
-    
+
 }
 
 @media (min-width:376px) and (max-width:425px) {
@@ -1844,4 +1856,5 @@ export default {
 }
 
 
-/*---------------------------------------------------------------------------HEADER END---------------------------------------------------------*/</style>
+/*---------------------------------------------------------------------------HEADER END---------------------------------------------------------*/
+</style>

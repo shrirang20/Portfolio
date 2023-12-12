@@ -24,5 +24,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 
 library.add(fas, far, faClock, fab);
 
+import VueGtag from "vue-gtag";
 
-createApp(App).component('fa', FontAwesomeIcon).use(router).mount('#app');
+createApp(App).use(VueGtag, {
+    config: { id: "G-79PXEFGWC7" }
+  }).component('fa', FontAwesomeIcon).use(router).mount('#app');
