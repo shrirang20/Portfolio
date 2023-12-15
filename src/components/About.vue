@@ -159,7 +159,7 @@ export default {
     },
     created() {
         this.loadAnswerComponent();
-        this.trackPageView('/about', 'AboutPage');
+        this.trackPageView('/', 'LandingPage');
     },
 };
 </script>
