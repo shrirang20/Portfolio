@@ -1,4 +1,15 @@
 <template>
+    <!-- Google tag (gtag.js) -->
+    <!-- <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-79PXEFGWC7"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-79PXEFGWC7');
+        </script>
+    </head> -->
     <div class="nav">
         <a href="mailto:official.shriraang@gmail.com" class="mail icon-link">
             Gmail
@@ -161,6 +172,20 @@ export default {
         this.loadAnswerComponent();
         this.trackPageView('/', 'LandingPage');
     },
+    mounted() {
+    const script = document.createElement('script');
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-79PXEFGWC7';
+    script.async = true;
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-79PXEFGWC7');
+  },
+
 };
 </script>
 
