@@ -541,7 +541,7 @@ export default {
     }
 
     .name {
-        margin-top: 12rem;
+        margin-top: 5rem;
         text-align: center;
     }
 
@@ -723,7 +723,7 @@ export default {
     }
 
     .name {
-        margin-top: 250px;
+        margin-top: 150px;
         text-align: center;
         font-size: 40px;
     }
