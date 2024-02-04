@@ -76,7 +76,7 @@
             Technology, Madras (IITM)</small> -->
     
     <h5><b>Data Science</b></h5>
-      <router-link to="/llm-projects" style="color:black;"><li><span ><b>Large Language Model ( LLM ) Application:</b></span></li></router-link>
+      <router-link to="https://ats-resume.netlify.app/" style="color:black;"><li><span ><b>Large Language Model ( LLM ) Application:</b></span></li></router-link>
       <li class="tab">
         <a href="https://ats-resume.netlify.app/" style="color: black"
           ><b>Application Tracking System (ATS)</b></a
