@@ -29,3 +29,5 @@ import VueGtag from "vue-gtag";
 createApp(App).use(VueGtag, {
     config: { id: "G-79PXEFGWC7" }
   }).component('fa', FontAwesomeIcon).use(router).mount('#app');
+
+

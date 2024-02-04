@@ -2,6 +2,7 @@ import ShrirangSapate from './components/ShrirangSapate.vue'
 import AboutPage from './components/About.vue'
 // import QuestionPage from './components/Question.vue'
 import StatsPage from './components/Stats.vue'
+import LLMProject from './components/LLMProject.vue'
 import AnswerPageOne from './components/AnswerPageOne.vue'
 import AnswerPageTwo from './components/AnswerPageTwo.vue'
 import AnswerPageThree from './components/AnswerPageThree.vue'
@@ -29,6 +30,11 @@ const routes = [
         name:'Stats',
         component:StatsPage,
         path: '/stats'
+    },
+    {
+        name:'LLM',
+        component:LLMProject,
+        path: '/llm-projects'
     },
     {
         name:'Answer1',
