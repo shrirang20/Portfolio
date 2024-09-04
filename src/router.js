@@ -11,6 +11,7 @@ import AnswerPageFive from './components/AnswerPageFive.vue'
 // import AnswerPageSix from './components/AnswerPageSix.vue'
 import AnswerPageSeven from './components/AnswerPageSeven.vue'
 import AnswerPageEight from './components/AnswerPageEight.vue'
+import ProjectsPage from './components/project.vue'
 
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -75,6 +76,11 @@ const routes = [
         name:'Answer8',
         component:AnswerPageEight,
         path: '/8'
+    },
+    {
+        name:'Project',
+        component:ProjectsPage,
+        path: '/project'
     }
 ]
 

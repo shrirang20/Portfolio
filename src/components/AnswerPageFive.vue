@@ -68,15 +68,19 @@
   <div class="section1">
     <div class="border"></div>
 
-    <div class="result">
+    <!-- <div class="result"> -->
       <!-- <h2>Indian Institute of Technology, Madras, and</h2>
         <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2> -->
       <!-- <small>Shrirang did his Bachelor's of Engineering (B.E) from Rashtrasant Tukadoji Maharaj University (RTMNU) in 2017,
             he is currently doing Bachelor's of Science (BS) in Data Science and Application from Indian Institute of
             Technology, Madras (IITM)</small> -->
-    
-    <h5><b>Data Science</b></h5>
-      <router-link to="/llm-projects" style="color:black;"><li><span ><b>Large Language Model ( LLM ) Application:</b></span></li></router-link>
+
+      <!-- <h5><b>Data Science</b></h5>
+      <router-link to="/llm-projects" style="color: black"
+        ><li>
+          <span><b>Large Language Model ( LLM ) Application:</b></span>
+        </li></router-link
+      >
       <li class="tab">
         <a href="https://ats-resume.netlify.app/" style="color: black"
           ><b>Application Tracking System (ATS)</b></a
@@ -93,7 +97,9 @@
         <b>Percentage Match Analysis</b>
       </p>
 
-      <li><span><b>Machine Learning:</b></span></li>
+      <li>
+        <span><b>Machine Learning:</b></span>
+      </li>
       <li class="tab"><b>Research Paper - Machine Learning</b></li>
       <p class="tab">
         <b>Title:</b> Predictive Model for Gross Community Production Rate of
@@ -135,7 +141,11 @@
         segment of IIT Madras' Annual fest (Paradox 23). Presented comprehensive
         insights and reports.
       </p>
-      <router-link to="/stats" style="color:black;"><li class="tab"><b>Analytical Dashboard - My IIT Madras Jorney</b></li></router-link>
+      <router-link to="/stats" style="color: black"
+        ><li class="tab">
+          <b>Analytical Dashboard - My IIT Madras Jorney</b>
+        </li></router-link
+      >
       <p class="tab">
         <b>Description:</b> Discover Shrirang's dynamic journey at IIT Madras
         with our user-friendly Looker Studio dashboard. Explore subjects,
@@ -161,15 +171,30 @@
         of the Sun and detecting Hydrogen and OH from the Sagittarius arm of the
         Milky Way galaxy. Contributed to astronomical research.
       </p>
+    </div> -->
+    
+    <div class="result">
+      <p>
+        I’m currently working on "Placy," a chatbot for the IIT Madras Placement
+        Council, and a Resume Evaluation Portal tailored for IIT Madras
+        students. I’ve completed several projects, including a GenAI-powered
+        learning portal, a Krishi Voice Assistant for Indian farmers, and a
+        fine-tuned frontend generator chatbot. I’ve also developed an
+        Application Tracking System (ATS), a Health & Diet App, and a PDF
+        Chatbot, all leveraging AI for various applications. Additionally, I’ve
+        built a Grocery Store Management Application and a Ticket Booking Web
+        App as part of my coursework at IIT Madras, showcasing my skills in
+        full-stack web development and machine learning.
+      </p>
     </div>
     <div class="content">
-      <router-link to="/shrirang-sapate/timeline" class="heading1"
-        >Know Shrirang Sapate</router-link
+      <router-link to="/project" class="heading1"
+        >Shrirang's Project</router-link
       >
       <!-- <div class="heading1">Know about Shrirang</div> -->
       <div class="slug">
-        <router-link to="/shrirang-sapate#timeline"
-          >https://know-about-shrirang-sapate.com
+        <router-link to="/project"
+          >https://shrirangs-project.com
           <fa icon="ellipsis-vertical" class="icons-subheader"></fa
         ></router-link>
         <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
