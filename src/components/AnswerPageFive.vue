@@ -69,13 +69,13 @@
     <div class="border"></div>
 
     <!-- <div class="result"> -->
-      <!-- <h2>Indian Institute of Technology, Madras, and</h2>
+    <!-- <h2>Indian Institute of Technology, Madras, and</h2>
         <h2>Rashtrasant Tukadoji Maharaj Nagpur University</h2> -->
-      <!-- <small>Shrirang did his Bachelor's of Engineering (B.E) from Rashtrasant Tukadoji Maharaj University (RTMNU) in 2017,
+    <!-- <small>Shrirang did his Bachelor's of Engineering (B.E) from Rashtrasant Tukadoji Maharaj University (RTMNU) in 2017,
             he is currently doing Bachelor's of Science (BS) in Data Science and Application from Indian Institute of
             Technology, Madras (IITM)</small> -->
 
-      <!-- <h5><b>Data Science</b></h5>
+    <!-- <h5><b>Data Science</b></h5>
       <router-link to="/llm-projects" style="color: black"
         ><li>
           <span><b>Large Language Model ( LLM ) Application:</b></span>
@@ -172,7 +172,7 @@
         Milky Way galaxy. Contributed to astronomical research.
       </p>
     </div> -->
-    
+
     <div class="result">
       <p>
         I’m currently working on "Placy," a chatbot for the IIT Madras Placement
@@ -200,11 +200,13 @@
         <!-- <span>https://know-about-shrirang-sapate.com <fa icon='ellipsis-vertical' class="icons-subheader"></fa></span> -->
       </div>
       <div class="context">
-        Meet Shrirang Sapate, a trailblazing Data Science student at IIT Madras.
-        From probing the depths of Astrophysics alongside NASA for three stellar
-        years, he's now charting the frontiers of Data Science. He's not just
-        crunching numbers; he's published a Machine Learning gem during an
-        internship and ignited campus culture with his vibrant event leadership.
+        Explore Shrirang Sapate's portfolio showcasing a diverse range of
+        projects. Discover projects such as a GenAI-powered learning portal,
+        Krishi Voice Assistant for Indian farmers, and a fine-tuned frontend
+        generator chatbot. Additional highlights include an AI-driven
+        Application Tracking System, Health & Diet App, PDF Chatbot, Grocery
+        Store Management Application, and Ticket Booking Web App, demonstrating
+        expertise in full-stack web development and machine learning.
       </div>
     </div>
 
